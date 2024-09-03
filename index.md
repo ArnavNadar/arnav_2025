@@ -6,12 +6,6 @@ hide: true
 ---
 
 My journey starts here.
----
-layout: base
-title: AP CSA
-description: Home Page
-hide: true
----
 
 <style>
 .page-header {

@@ -10,7 +10,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 make: *** No rule to make target `all'.  Stop.
 
 
-# Make data base, printed on Mon Sep  2 22:08:50 2024
+# Make data base, printed on Tue Sep  3 10:50:29 2024
 
 # Variables
 
@@ -25,7 +25,6 @@ VSCODE_CRASH_REPORTER_PROCESS_TYPE = extensionHost
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # makefile (from `Makefile', line 13)
- 
 NOTEBOOK_FILES := _notebooks/Foundation/A-pair_programming/2023-08-17-pair_habits.ipynb _notebooks/Foundation/A-pair_programming/2023-08-16-pair_showcase.ipynb _notebooks/Foundation/2024-08-24-Emoji-Hack.ipynb _notebooks/Foundation/2024-08-23-Tools-Hacks.ipynb _notebooks/Foundation/B-tools_and_equipment/2023-08-21-devops_tools-home.ipynb _notebooks/Foundation/B-tools_and_equipment/2023-08-21-devops_tools-setup.ipynb _notebooks/Foundation/B-tools_and_equipment/2023-08-23-devops-hacks.ipynb _notebooks/Foundation/B-tools_and_equipment/2023-08-23-devops-githhub_pages-play.ipynb _notebooks/Foundation/B-tools_and_equipment/2023-08-19-devops_accounts.ipynb _notebooks/Foundation/B-tools_and_equipment/2023-08-22-devops_tools-verify.ipynb _notebooks/Foundation/2024-08-27-Checklist.ipynb _notebooks/Foundation/2024-08-21-sprint1_plan.ipynb
 # automatic
 @D = $(patsubst %/,%,$(dir $@))
@@ -76,7 +75,6 @@ GEM_HOME = /Users/arnavnadar/gems
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = undefined
 # environment
- 
 MANPATH = /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/share/man:/Library/Developer/CommandLineTools/usr/share/man:/Library/Developer/CommandLineTools/Toolchains/XcodeDefault.xctoolchain/usr/share/man:
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
@@ -134,8 +132,6 @@ XPC_SERVICE_NAME = application.com.microsoft.VSCode.29908709.29908715
 HOMEBREW_PREFIX = /opt/homebrew
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
-# environment
-VSCODE_L10N_BUNDLE_LOCATION = 
 # automatic
 +F = $(notdir $+)
 # environment
@@ -161,10 +157,9 @@ MAKELEVEL := 0
 # environment
 LANG = C
 # environment
-VSCODE_PID = 79288
- 
+VSCODE_PID = 86623
 # variable set hash-table stats:
-# Load=73/1024=7%, Rehash=0, Collisions=10/105=10%
+# Load=72/1024=7%, Rehash=0, Collisions=10/104=10%
 
 # Pattern-specific Variable Values
 
@@ -207,7 +202,6 @@ stop:
 	
 
 # Not a target:
- 
 all:
 #  Command-line target.
 #  Implicit rule search has been done.
@@ -234,6 +228,7 @@ _posts/Foundation/B-tools_and_equipment/2023-08-23-devops-hacks_IPYNB_2_.md:
 #  File has not been updated.
 
 # Not a target:
+ 
 _posts/Foundation/A-pair_programming/2023-08-17-pair_habits_IPYNB_2_.md:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -268,7 +263,6 @@ _posts/Foundation/2024-08-24-Emoji-Hack_IPYNB_2_.md:
 
 server: stop convert
 #  Phony target (prerequisite of .PHONY).
- 
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
@@ -341,7 +335,6 @@ clean: stop
 	@find _posts -type f -name '*_GithubIssue_.md' -exec rm {} +
 	@echo "Removing empty directories in _posts..."
 	@while [ $$(find _posts -type d -empty | wc -l) -gt 0 ]; do \
- 
 	find _posts -type d -empty -exec rmdir {} +; \
 	done
 	@echo "Removing _site directory..."
@@ -391,7 +384,6 @@ _posts/Foundation/2024-08-27-Checklist_IPYNB_2_.md:
 #  File has not been updated.
 
 # Not a target:
- 
 _posts/Foundation/B-tools_and_equipment/2023-08-19-devops_accounts_IPYNB_2_.md:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -410,6 +402,6 @@ _posts/Foundation/B-tools_and_equipment/2023-08-19-devops_accounts_IPYNB_2_.md:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Mon Sep  2 22:08:50 2024
+# Finished Make data base on Tue Sep  3 10:50:29 2024
 
  
