@@ -27,7 +27,7 @@ hide: true
 - <p> Period 3 - AP CSA
 - <p> Period 4 - AP Statistics 
 - <p> Period 5 - US History 1
-- <p>I am a Junior so Class od 2026</p>
+- <p>I am a Junior so Class of 2026</p>
 
 
 
