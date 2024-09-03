@@ -21,7 +21,7 @@ hide: true
   background-image: conic-gradient(from 215deg, $header-bg-color, $header-bg-color-secondary) !important;
 </style>
 ## About Me
-- <p> Name: Arnav Nadar</p>
+- <p> Name: Arnav Nadar</p> 
 - <p> Period 1 - Photography 1
 - <p> Period 2 - AP Physics C: Mechanics
 - <p> Period 3 - AP CSA
