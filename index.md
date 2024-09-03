@@ -53,7 +53,7 @@ hide: true
         <h1>Page Header</h1>
     </div>
 
-    <p>Enter your preferred color codes for the page header:</p>
+    <p>Enter your preferred color codes for the Color Block:</p>
     
     <label for="headerColor1">Color 1:</label>
     <input type="text" id="headerColor1" name="headerColor1" placeholder="#2921ff">
@@ -80,6 +80,11 @@ hide: true
         }
     </script>
 
+- My favorite colors: 
+    -> Dark Blue #0000FF
+    -> Black: #000000
+    -> Green: #008000
+    -> Red: #FF0000
 </body>
 </html>
 
