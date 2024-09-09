@@ -25,7 +25,6 @@ My journey starts here.
 
 
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -83,18 +82,6 @@ My journey starts here.
 </html>
 
 
-<!-- <script>
-
-  function updateGradient() {
-    var color1 = document.getElementById('headerColorPicker1').value;
-    var color2 = document.getElementById('headerColorPicker2').value;
-    var gradient = `conic-gradient(from 215deg, ${color1}, ${color2})`;
-    document.querySelector('.page-header').style.setProperty('background-image', gradient);
-  }
-
-  document.getElementById('headerColorPicker1').addEventListener('input', updateGradient);
-  document.getElementById('headerColorPicker2').addEventListener('input', updateGradient);
-</script> -->
 
 ## Plans for CSA
 
