@@ -2,7 +2,7 @@
 layout: page
 title: 
 permalink: /about/
-comments: True
+comments: true
 ---
 
 ## About Me
@@ -30,3 +30,12 @@ comments: True
   - Get a better understanding of algorithms and code
   - Learn how to code better in general 
 
+
+
+<script src="https://utteranc.es/client.js"
+        repo="ArnavNadar/arnav_2025"
+        issue-term="pathname"
+        theme="github-dark"
+        crossorigin="anonymous"
+        async>
+</script>
