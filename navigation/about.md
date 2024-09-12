@@ -235,6 +235,7 @@ img {vertical-align: middle;}
 - ####  Went to WestWood Elementary School which is near Poway
 - ####  Moved to 4S Racnh because we got a better house in that area
 - #### Most of my relatives live in India so every other year my family and I go visit them. 
+- #### My first language was English but I also speak Hindi and Tamil
 
 ### This is my <a href="https://github.com/ArnavNadar" target="_blank">Github page</a>
 <br>

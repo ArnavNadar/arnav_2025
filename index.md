@@ -8,23 +8,12 @@ hide: true
 My journey starts here.
 
 <style>
-.page-header {
+.page-header 
   color: $header-heading-color;
   text-align: center;
   background-color: $header-bg-color;
   background-image: conic-gradient(from 215deg, $header-bg-color, $header-bg-color-secondary) !important;
 </style>
-## About Me
-- <p> Name: Arnav Nadar</p> 
-- <p> Period 1 - Photography 1
-- <p> Period 2 - AP Physics C: Mechanics
-- <p> Period 3 - AP CSA
-- <p> Period 4 - AP Statistics 
-- <p> Period 5 - US History 1
-- <p>I am a Junior so Class of 2026</p>
-
-
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -36,14 +25,14 @@ My journey starts here.
             text-align: center;
             color: white;
             background: #2921ff; /* Default header color */
-            transition: background 0.3s ease; /* Smooth transition for color change */
+            transition: background 0.4s ease; /* Smooth transition for color change */
         }
     </style>
 </head>
 <body>
 
     <div id="header">
-        <h1>Page Header</h1>
+        <h1>Change my color ! </h1>
     </div>
 
     <p>Enter your preferred color codes for the Color Block:</p>
@@ -80,6 +69,150 @@ My journey starts here.
     -> Red: #FF0000
 </body>
 </html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .board {
+            display: grid;
+            grid-template-columns: repeat(3, 100px);
+            grid-gap: 10px;
+            justify-content: center;
+        }
+
+        .cell {
+            width: 100px;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 2rem;
+            border: 2px solid black;
+            cursor: pointer;
+        }
+
+        #status {
+            margin-top: 20px;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tic Tac Toe</h1>
+    <div class="board" id="board">
+        <div class="cell" data-index="0"></div>
+        <div class="cell" data-index="1"></div>
+        <div class="cell" data-index="2"></div>
+        <div class="cell" data-index="3"></div>
+        <div class="cell" data-index="4"></div>
+        <div class="cell" data-index="5"></div>
+        <div class="cell" data-index="6"></div>
+        <div class="cell" data-index="7"></div>
+        <div class="cell" data-index="8"></div>
+    </div>
+    <h2 id="status"></h2>
+    <button id="reset">Reset Game</button>
+
+    <script>
+        const cells = document.querySelectorAll(".cell");
+        const statusText = document.getElementById("status");
+        const resetButton = document.getElementById("reset");
+        let currentPlayer = "X";
+        let gameBoard = ["", "", "", "", "", "", "", "", ""];
+        let gameActive = true;
+
+        const winConditions = [
+            [0, 1, 2],
+            [3, 4, 5],
+            [6, 7, 8],
+            [0, 3, 6],
+            [1, 4, 7],
+            [2, 5, 8],
+            [0, 4, 8],
+            [2, 4, 6]
+        ];
+
+        function handleCellClick(e) {
+            const cell = e.target;
+            const index = cell.getAttribute("data-index");
+
+            if (gameBoard[index] !== "" || !gameActive) return;
+
+            gameBoard[index] = currentPlayer;
+            cell.textContent = currentPlayer;
+
+            checkWinner();
+            switchPlayer();
+        }
+
+        function checkWinner() {
+            let roundWon = false;
+
+            for (let i = 0; i < winConditions.length; i++) {
+                const condition = winConditions[i];
+                const a = gameBoard[condition[0]];
+                const b = gameBoard[condition[1]];
+                const c = gameBoard[condition[2]];
+
+                if (a === "" || b === "" || c === "") continue;
+                if (a === b && b === c) {
+                    roundWon = true;
+                    break;
+                }
+            }
+
+            if (roundWon) {
+                statusText.textContent = `${currentPlayer} Wins!`;
+                gameActive = false;
+                return;
+            }
+
+            if (!gameBoard.includes("")) {
+                statusText.textContent = "Draw!";
+                gameActive = false;
+                return;
+            }
+        }
+
+        function switchPlayer() {
+            currentPlayer = currentPlayer === "X" ? "O" : "X";
+            statusText.textContent = `It's ${currentPlayer}'s turn`;
+        }
+
+        function resetGame() {
+            currentPlayer = "X";
+            gameBoard = ["", "", "", "", "", "", "", "", ""];
+            statusText.textContent = `It's ${currentPlayer}'s turn`;
+            cells.forEach(cell => cell.textContent = "");
+            gameActive = true;
+        }
+
+        cells.forEach(cell => cell.addEventListener("click", handleCellClick));
+        resetButton.addEventListener("click", resetGame);
+
+        statusText.textContent = `It's ${currentPlayer}'s turn`;
+    </script>
+</body>
+</html>
+
+
+
+
 
 
 
