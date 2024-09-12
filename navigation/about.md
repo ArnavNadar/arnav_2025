@@ -229,20 +229,17 @@ img {vertical-align: middle;}
 
 # My Life:
 
-- #### 🏥 Born in Mumbai, India
-- #### 🏡 Lived there for 3 years
-- #### ✈️ Moved to San Diego so that my father could pursue a better job. 
-- #### 🏫 Went to WestWood Elementary School which is near Poway
-- #### ↩️ Moved to 4S Racnh because we got a better house in that area
+- #### Born in Mumbai, India
+- ####  Lived there for 3 years
+- ####  Moved to San Diego so that my father could pursue a better job. 
+- ####  Went to WestWood Elementary School which is near Poway
+- ####  Moved to 4S Racnh because we got a better house in that area
 - #### Most of my relatives live in India so every other year my family and I go visit them. 
 
 ### This is my <a href="https://github.com/ArnavNadar" target="_blank">Github page</a>
 <br>
 <br>
-
-
-
-### Some of my hobbies and things I enjoy
+Hobbies and Future Plans. 
 <br>
 <div class="slideshow-container">
 
@@ -261,28 +258,26 @@ img {vertical-align: middle;}
 <div class="mySlides fade">
   <div class="numbertext">3 / 6</div>
   <img src="https://github.com/user-attachments/assets/6850c787-da67-4bae-8473-a7433080c151" style="width:100%">
-  <div class="text">In the future I want to travel to different places with family and friends. </div>
+  <div class="text">In the future I want to travel differnt parts of the world with family and friends.</div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">4 / 6</div>
-  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzukJiFWYzt7eTjkW8zaGAf240AJq0H_0F_g&s" style="width:100%">  
-  <div class="text">Likes to play badminton</div>
+  <img src="https://github.com/user-attachments/assets/fde65a5e-b1bc-4f8d-9b4f-b0673afc55a1" style="width:100%">
+  <div class="text">Love to play basketball either in my driveway or at a park near my house.</div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">5 / 6</div>
   <img src="https://github.com/user-attachments/assets/278c0f9b-10ce-4e77-b93a-b25407aab555" style="width:100%">
-  <div class="text">No matter what I'm doing, I always need music in the background.</div>
+  <div class="text">No matter what I'm doing I need music in the background</div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">6 / 6</div>
-  <img src="https://github.com/user-attachments/assets/278c0f9b-10ce-4e77-b93a-b25407aab555" style="width:100%">
-  <div class="text">No matter what I'm doing, I always need music in the background.</div>
+  <img src="https://github.com/user-attachments/assets/c95d79b8-2bea-4bce-8b69-4f116806ca6a" style="width:100%">
+  <div class="text">I want to get into a nice UC like UCI.</div>
 </div>
-
-
 
 <a class="prev" onclick="plusSlides(-1)">⏪</a>
 <a class="next" onclick="plusSlides(1)">⏩</a>
@@ -300,9 +295,46 @@ img {vertical-align: middle;}
 </div>
 <br>
 <br>
-<h3>Here is my : <a href="https://open.spotify.com/user/gmkoyj4aselax8af9hiqdxttb?si=73e3b7ffade841d0" target="_blank" style="color:turquoise">Spotify Account</a></h3>
+<h3>This is my <a href="https://open.spotify.com/user/gmkoyj4aselax8af9hiqdxttb?si=73e3b7ffade841d0" target="_blank" style="color:turquoise">Spotify Account</a></h3>
 <br>
 <br>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+    // Dark Mode Toggle
+    document.getElementById('toggleDarkMode').addEventListener('click', function() {
+        document.body.classList.toggle('dark-mode');
+    });
+
+    document.getElementById('quoteButton').addEventListener('click', function() {
+        const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+        document.getElementById('quote').textContent = randomQuote;
+    });
 </script>
 
 <script src="https://utteranc.es/client.js"
