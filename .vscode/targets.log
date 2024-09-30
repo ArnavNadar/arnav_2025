@@ -10,7 +10,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 make: *** No rule to make target `all'.  Stop.
 
 
-# Make data base, printed on Thu Sep 26 12:25:47 2024
+# Make data base, printed on Sun Sep 29 19:08:53 2024
 
 # Variables
 
@@ -24,9 +24,8 @@ make: *** No rule to make target `all'.  Stop.
 VSCODE_CRASH_REPORTER_PROCESS_TYPE = extensionHost
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
- 
 # makefile (from `Makefile', line 13)
-NOTEBOOK_FILES := _notebooks/Foundation/2024-09-20-Unit6PopcornHacks.ipynb _notebooks/Foundation/A-pair_programming/2023-08-17-pair_habits.ipynb _notebooks/Foundation/A-pair_programming/2023-08-16-pair_showcase.ipynb _notebooks/Foundation/2024-09-03-StudentLessonTracker.ipynb _notebooks/Foundation/2024-09-12-Unit_2_part2.ipynb _notebooks/Foundation/2024-09-12-Unit_2_HW.ipynb _notebooks/Foundation/2024-09-12-Unit_2_part1.ipynb _notebooks/Foundation/2024-09-13-Unit_2_part3.ipynb _notebooks/Foundation/2024-08-23-Tools-Hacks.ipynb _notebooks/Foundation/2024-09-16-Unit_2_part4.ipynb _notebooks/Foundation/2024-08-22-csa_hacks.ipynb _notebooks/Foundation/B-tools_and_equipment/2023-08-21-devops_tools-home.ipynb _notebooks/Foundation/B-tools_and_equipment/2023-08-21-devops_tools-setup.ipynb _notebooks/Foundation/B-tools_and_equipment/2023-08-23-devops-hacks.ipynb _notebooks/Foundation/B-tools_and_equipment/2023-08-23-devops-githhub_pages-play.ipynb _notebooks/Foundation/B-tools_and_equipment/2023-08-19-devops_accounts.ipynb _notebooks/Foundation/B-tools_and_equipment/2023-08-22-devops_tools-verify.ipynb _notebooks/Foundation/2024-08-27-Checklist.ipynb _notebooks/Foundation/2024-08-21-sprint1_plan.ipynb
+NOTEBOOK_FILES := _notebooks/Foundation/2024-09-20-Unit6PopcornHacks.ipynb _notebooks/Foundation/A-pair_programming/2023-08-17-pair_habits.ipynb _notebooks/Foundation/A-pair_programming/2023-08-16-pair_showcase.ipynb _notebooks/Foundation/2024-09-03-StudentLessonTracker.ipynb _notebooks/Foundation/2024-09-12-Unit2HW.ipynb _notebooks/Foundation/2024-09-12-Unit2PT1.ipynb _notebooks/Foundation/2024-08-23-Tools-Hacks.ipynb _notebooks/Foundation/2024-09-13-Unit2PT3.ipynb _notebooks/Foundation/2024-09-16-Unit2PT4.ipynb _notebooks/Foundation/2024-09-12-Unit2PT2.ipynb _notebooks/Foundation/2024-08-22-csa_hacks.ipynb _notebooks/Foundation/B-tools_and_equipment/2023-08-21-devops_tools-home.ipynb _notebooks/Foundation/B-tools_and_equipment/2023-08-21-devops_tools-setup.ipynb _notebooks/Foundation/B-tools_and_equipment/2023-08-23-devops-hacks.ipynb _notebooks/Foundation/B-tools_and_equipment/2023-08-23-devops-githhub_pages-play.ipynb _notebooks/Foundation/B-tools_and_equipment/2023-08-19-devops_accounts.ipynb _notebooks/Foundation/B-tools_and_equipment/2023-08-22-devops_tools-verify.ipynb _notebooks/Foundation/2024-08-27-Checklist.ipynb _notebooks/Foundation/2024-09-25-Unit2Hacks.ipynb _notebooks/Foundation/2024-08-21-sprint1_plan.ipynb
 # automatic
 @D = $(patsubst %/,%,$(dir $@))
 # automatic
@@ -66,8 +65,7 @@ SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.4F2WDTHUg5/Listeners
 # automatic
 %F = $(notdir $%)
 # makefile (from `Makefile', line 17)
- 
-MARKDOWN_FILES := _posts/Foundation/2024-09-20-Unit6PopcornHacks_IPYNB_2_.md _posts/Foundation/A-pair_programming/2023-08-17-pair_habits_IPYNB_2_.md _posts/Foundation/A-pair_programming/2023-08-16-pair_showcase_IPYNB_2_.md _posts/Foundation/2024-09-03-StudentLessonTracker_IPYNB_2_.md _posts/Foundation/2024-09-12-Unit_2_part2_IPYNB_2_.md _posts/Foundation/2024-09-12-Unit_2_HW_IPYNB_2_.md _posts/Foundation/2024-09-12-Unit_2_part1_IPYNB_2_.md _posts/Foundation/2024-09-13-Unit_2_part3_IPYNB_2_.md _posts/Foundation/2024-08-23-Tools-Hacks_IPYNB_2_.md _posts/Foundation/2024-09-16-Unit_2_part4_IPYNB_2_.md _posts/Foundation/2024-08-22-csa_hacks_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/2023-08-21-devops_tools-home_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/2023-08-21-devops_tools-setup_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/2023-08-23-devops-hacks_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/2023-08-23-devops-githhub_pages-play_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/2023-08-19-devops_accounts_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/2023-08-22-devops_tools-verify_IPYNB_2_.md _posts/Foundation/2024-08-27-Checklist_IPYNB_2_.md _posts/Foundation/2024-08-21-sprint1_plan_IPYNB_2_.md
+MARKDOWN_FILES := _posts/Foundation/2024-09-20-Unit6PopcornHacks_IPYNB_2_.md _posts/Foundation/A-pair_programming/2023-08-17-pair_habits_IPYNB_2_.md _posts/Foundation/A-pair_programming/2023-08-16-pair_showcase_IPYNB_2_.md _posts/Foundation/2024-09-03-StudentLessonTracker_IPYNB_2_.md _posts/Foundation/2024-09-12-Unit2HW_IPYNB_2_.md _posts/Foundation/2024-09-12-Unit2PT1_IPYNB_2_.md _posts/Foundation/2024-08-23-Tools-Hacks_IPYNB_2_.md _posts/Foundation/2024-09-13-Unit2PT3_IPYNB_2_.md _posts/Foundation/2024-09-16-Unit2PT4_IPYNB_2_.md _posts/Foundation/2024-09-12-Unit2PT2_IPYNB_2_.md _posts/Foundation/2024-08-22-csa_hacks_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/2023-08-21-devops_tools-home_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/2023-08-21-devops_tools-setup_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/2023-08-23-devops-hacks_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/2023-08-23-devops-githhub_pages-play_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/2023-08-19-devops_accounts_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/2023-08-22-devops_tools-verify_IPYNB_2_.md _posts/Foundation/2024-08-27-Checklist_IPYNB_2_.md _posts/Foundation/2024-09-25-Unit2Hacks_IPYNB_2_.md _posts/Foundation/2024-08-21-sprint1_plan_IPYNB_2_.md
 # environment
 PWD = /Users/arnavnadar/vscode/arnav_2025
 # environment
@@ -134,13 +132,10 @@ XPC_SERVICE_NAME = application.com.microsoft.VSCode.32781615.32781621
 HOMEBREW_PREFIX = /opt/homebrew
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
-# environment
-VSCODE_L10N_BUNDLE_LOCATION = 
 # automatic
 +F = $(notdir $+)
 # environment
 HOMEBREW_REPOSITORY = /opt/homebrew
- 
 # environment
 __CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x0
 # environment
@@ -162,9 +157,9 @@ MAKELEVEL := 0
 # environment
 LANG = C
 # environment
-VSCODE_PID = 90549
+VSCODE_PID = 28960
 # variable set hash-table stats:
-# Load=73/1024=7%, Rehash=0, Collisions=10/105=10%
+# Load=72/1024=7%, Rehash=0, Collisions=10/104=10%
 
 # Pattern-specific Variable Values
 
@@ -172,10 +167,10 @@ VSCODE_PID = 90549
 
 # Directories
 
-# . (device 16777229, inode 31412668): 26 files, no impossibilities.
+# . (device 16777229, inode 31412668): 27 files, no impossibilities.
 # _notebooks (device 16777229, inode 31412794): No files, no impossibilities so far.
 
-# 26 files, no impossibilities in 2 directories.
+# 27 files, no impossibilities in 2 directories.
 
 # Implicit Rules
 
@@ -205,18 +200,31 @@ stop:
 
 # Not a target:
 _posts/Foundation/2024-09-20-Unit6PopcornHacks_IPYNB_2_.md:
+ 
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
 # Not a target:
-_posts/Foundation/2024-09-13-Unit_2_part3_IPYNB_2_.md:
+_posts/Foundation/2024-09-12-Unit2PT1_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+_posts/Foundation/2024-09-16-Unit2PT4_IPYNB_2_.md:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
 # Not a target:
 _posts/Foundation/2024-08-22-csa_hacks_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+_posts/Foundation/2024-09-12-Unit2HW_IPYNB_2_.md:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -242,13 +250,7 @@ _posts/Foundation/A-pair_programming/2023-08-16-pair_showcase_IPYNB_2_.md:
 #  File has not been updated.
 
 # Not a target:
-_posts/Foundation/2024-09-12-Unit_2_part1_IPYNB_2_.md:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-_posts/Foundation/B-tools_and_equipment/2023-08-23-devops-hacks_IPYNB_2_.md:
+_posts/Foundation/2024-09-12-Unit2PT2_IPYNB_2_.md:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -266,13 +268,13 @@ _posts/Foundation/2024-08-21-sprint1_plan_IPYNB_2_.md:
 #  File has not been updated.
 
 # Not a target:
-_posts/Foundation/2024-09-12-Unit_2_HW_IPYNB_2_.md:
+.SUFFIXES:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
 # Not a target:
-.SUFFIXES:
+_posts/Foundation/2024-09-25-Unit2Hacks_IPYNB_2_.md:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -300,15 +302,8 @@ server: stop convert
 	
 
 # Not a target:
-_posts/Foundation/2024-09-12-Unit_2_part2_IPYNB_2_.md:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
 _posts/Foundation/B-tools_and_equipment/2023-08-21-devops_tools-setup_IPYNB_2_.md:
 #  Implicit rule search has not been done.
- 
 #  Modification time never checked.
 #  File has not been updated.
 
@@ -343,15 +338,16 @@ default: server
 	done
 	@sed '$$d' $(LOG_FILE)
 	
+ 
 
 # Not a target:
-.DEFAULT:
+_posts/Foundation/B-tools_and_equipment/2023-08-23-devops-hacks_IPYNB_2_.md:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
 # Not a target:
-_posts/Foundation/2024-09-16-Unit_2_part4_IPYNB_2_.md:
+.DEFAULT:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -375,6 +371,12 @@ clean: stop
 	
 
 # Not a target:
+_posts/Foundation/2024-09-13-Unit2PT3_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
 _posts/Foundation/B-tools_and_equipment/2023-08-22-devops_tools-verify_IPYNB_2_.md:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -392,7 +394,7 @@ _posts/Foundation/B-tools_and_equipment/2023-08-21-devops_tools-home_IPYNB_2_.md
 #  Modification time never checked.
 #  File has not been updated.
 
-convert: _posts/Foundation/2024-09-20-Unit6PopcornHacks_IPYNB_2_.md _posts/Foundation/A-pair_programming/2023-08-17-pair_habits_IPYNB_2_.md _posts/Foundation/A-pair_programming/2023-08-16-pair_showcase_IPYNB_2_.md _posts/Foundation/2024-09-03-StudentLessonTracker_IPYNB_2_.md _posts/Foundation/2024-09-12-Unit_2_part2_IPYNB_2_.md _posts/Foundation/2024-09-12-Unit_2_HW_IPYNB_2_.md _posts/Foundation/2024-09-12-Unit_2_part1_IPYNB_2_.md _posts/Foundation/2024-09-13-Unit_2_part3_IPYNB_2_.md _posts/Foundation/2024-08-23-Tools-Hacks_IPYNB_2_.md _posts/Foundation/2024-09-16-Unit_2_part4_IPYNB_2_.md _posts/Foundation/2024-08-22-csa_hacks_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/2023-08-21-devops_tools-home_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/2023-08-21-devops_tools-setup_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/2023-08-23-devops-hacks_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/2023-08-23-devops-githhub_pages-play_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/2023-08-19-devops_accounts_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/2023-08-22-devops_tools-verify_IPYNB_2_.md _posts/Foundation/2024-08-27-Checklist_IPYNB_2_.md _posts/Foundation/2024-08-21-sprint1_plan_IPYNB_2_.md
+convert: _posts/Foundation/2024-09-20-Unit6PopcornHacks_IPYNB_2_.md _posts/Foundation/A-pair_programming/2023-08-17-pair_habits_IPYNB_2_.md _posts/Foundation/A-pair_programming/2023-08-16-pair_showcase_IPYNB_2_.md _posts/Foundation/2024-09-03-StudentLessonTracker_IPYNB_2_.md _posts/Foundation/2024-09-12-Unit2HW_IPYNB_2_.md _posts/Foundation/2024-09-12-Unit2PT1_IPYNB_2_.md _posts/Foundation/2024-08-23-Tools-Hacks_IPYNB_2_.md _posts/Foundation/2024-09-13-Unit2PT3_IPYNB_2_.md _posts/Foundation/2024-09-16-Unit2PT4_IPYNB_2_.md _posts/Foundation/2024-09-12-Unit2PT2_IPYNB_2_.md _posts/Foundation/2024-08-22-csa_hacks_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/2023-08-21-devops_tools-home_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/2023-08-21-devops_tools-setup_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/2023-08-23-devops-hacks_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/2023-08-23-devops-githhub_pages-play_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/2023-08-19-devops_accounts_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/2023-08-22-devops_tools-verify_IPYNB_2_.md _posts/Foundation/2024-08-27-Checklist_IPYNB_2_.md _posts/Foundation/2024-09-25-Unit2Hacks_IPYNB_2_.md _posts/Foundation/2024-08-21-sprint1_plan_IPYNB_2_.md
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
@@ -429,7 +431,7 @@ _posts/Foundation/2024-09-03-StudentLessonTracker_IPYNB_2_.md:
 #  File has not been updated.
 
 # files hash-table stats:
-# Load=30/1024=3%, Rehash=0, Collisions=0/71=0%
+# Load=31/1024=3%, Rehash=0, Collisions=2/73=3%
 # VPATH Search Paths
 
 # No `vpath' search paths.
@@ -441,6 +443,6 @@ _posts/Foundation/2024-09-03-StudentLessonTracker_IPYNB_2_.md:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Thu Sep 26 12:25:47 2024
+# Finished Make data base on Sun Sep 29 19:08:53 2024
 
  
