@@ -1,0 +1,184 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AP CSA Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        h2 {
+            cursor: pointer;
+            color: #4CAF50;
+            margin: 15px 0;
+            padding: 10px;
+            background-color: #e0f7e0;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        h2:hover {
+            background-color: #c8e6c9;
+        }
+        .dropdown-content {
+            display: none;
+            background-color: #ffffff;
+            margin-top: 10px;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+        .api-section {
+            background-color: #f0f0f0;
+            padding: 15px;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+        .bullet-point-section {
+            margin-bottom: 20px;
+        }
+        .bullet-point-section ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>AP Computer Science A Units Overview</h1>
+
+    <!-- Unit 1 -->
+    <h2 onclick="toggleDropdown('unit1Dropdown')">Unit 1: Primitive Types</h2>
+    <div id="unit1Dropdown" class="dropdown-content">
+        <div class="bullet-point-section">
+            <h3>Main Concepts:</h3>
+            <ul>
+                <li>Store simple data such as deadlines, progress tracking, and GPA.</li>
+                <li>Use int for deadlines, double for GPA, and boolean for task statuses.</li>
+                <li>Apply condition checks with primitive types for progress tracking.</li>
+                <li>Use boolean logic to ensure application completion is tracked properly.</li>
+            </ul>
+        </div>
+        <div class="api-section">
+            <h3>API Implications:</h3>
+            <ul>
+                <li>Validate primitive types like GPA and deadlines in API endpoints.</li>
+                <li>Send boolean values for task statuses via API for updates.</li>
+                <li>API responses return primitive types for app completion or missing details.</li>
+                <li><a href="https://nighthawkcoders.github.io/portfolio_2025/csa/unit1/primitives">Data Type Def</a></li>                    
+            </ul>
+        </div>
+    </div>
+
+    <!-- Unit 2 -->
+    <h2 onclick="toggleDropdown('unit2Dropdown')">Unit 2: Using Objects</h2>
+    <div id="unit2Dropdown" class="dropdown-content">
+        <div class="bullet-point-section">
+            <h3>Main Concepts:</h3>
+            <ul>
+                <li>Create objects to represent real-world data (Colleges, Applications, Students).</li>
+                <li>Encapsulate data to ensure privacy and control access to attributes like GPA.</li>
+                <li>Use methods in objects to manipulate data, like updating application status.</li>
+                <li>Write reusable, scalable code using objects and classes.</li>
+            </ul>
+        </div>
+        <div class="api-section">
+            <h3>API Implications:</h3>
+            <ul>
+                <li>Represent students and applications as objects when interacting with the API.</li>
+                <li>Serialize/deserialize objects when sending/receiving data from API.</li>
+                <li>Use class methods for data manipulation via API calls.</li>
+                <li><a href="https://nighthawkcoders.github.io/portfolio_2025/csa/unit2/period3/part4/">Constructor Usage</a></li>                    
+                <li><a href="https://www.digitalocean.com/community/tutorials/constructor-in-java">Constructor Resource I used</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Unit 3 -->
+    <h2 onclick="toggleDropdown('unit3Dropdown')">Unit 3: Boolean Expressions and if Statements</h2>
+    <div id="unit3Dropdown" class="dropdown-content">
+        <div class="bullet-point-section">
+            <h3>Main Concepts:</h3>
+            <ul>
+                <li>Use if statements to check if a student has completed all requirements.</li>
+                <li>Apply boolean logic to dynamically determine eligibility for college matches.</li>
+                <li>Set triggers for feedback on essays or application steps using boolean flags.</li>
+                <li>Enhance decision-making in application workflows with conditionals.</li>
+            </ul>
+        </div>
+        <div class="api-section">
+            <h3>API Implications:</h3>
+            <ul>
+                <li>API endpoints return booleans for key operations like "application complete".</li>
+                <li>Use backend boolean logic to filter data for API responses (e.g., eligible colleges).</li>
+                <li>Send if-statement results to frontend to display status (e.g., essay submission status).</li>
+                <li><a href="https://nighthawkcoders.github.io/portfolio_2025/csa/unit3-p1/unit3-4">If Else and Elif in java</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Unit 4 -->
+    <h2 onclick="toggleDropdown('unit4Dropdown')">Unit 4: Iteration</h2>
+    <div id="unit4Dropdown" class="dropdown-content">
+        <div class="bullet-point-section">
+            <h3>Main Concepts:</h3>
+            <ul>
+                <li>Use loops to iterate through student applications and track completion rates.</li>
+                <li>Apply for loops to process a list of colleges or application requirements.</li>
+                <li>Use while loops for continuous processes like dashboard updates until application submission.</li>
+                <li>Streamline progress checks using break and continue statements.</li>
+            </ul>
+        </div>
+        <div class="api-section">
+            <h3>API Implications:</h3>
+            <ul>
+                <li>Backend iteration processes student and college data efficiently to generate match results.</li>
+                <li>For loops process lists of applications, returning only necessary data for the frontend.</li>
+                <li>Return paginated or chunked data in APIs to optimize iteration over large datasets.</li>
+                <li><a href="https://nighthawkcoders.github.io/portfolio_2025/csa/unit4-p1/unit4-2">While And For Loops in Java (forms of iteration)</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Unit 5 -->
+    <h2 onclick="toggleDropdown('unit5Dropdown')">Unit 5: Writing Classes</h2>
+    <div id="unit5Dropdown" class="dropdown-content">
+        <div class="bullet-point-section">
+            <h3>Main Concepts:</h3>
+            <ul>
+                <li>Create classes to represent complex entities like students or colleges.</li>
+                <li>Ensure encapsulation and proper constructor use when initializing objects.</li>
+                <li>Write methods to manipulate the object’s state (e.g., updating college preference or application progress).</li>
+                <li>Focus on Object-Oriented Programming principles like inheritance and polymorphism.</li>
+            </ul>
+        </div>
+        <div class="api-section">
+            <h3>API Implications:</h3>
+            <ul>
+                <li>Ensure class methods are exposed via API calls for CRUD operations.</li>
+                <li>Apply Object-Oriented Programming principles to handle API data models (students, applications, colleges).</li>
+                <li>Use inheritance to extend features across multiple data models in API design.</li>
+                <li><a href="https://nighthawkcoders.github.io/portfolio_2025/csa/unit5/5.1/">Class Developing (used for CRUD)</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Unit 6 -->
+    <h2 onclick="toggleDropdown('unit6Dropdown')">Unit 6: Arrays</h2>
+    <div id="unit6Dropdown" class="dropdown-content">
+        <div class="bullet-point-section">
+            <h3>Main Concepts:</h3>
+            <ul>
+                <li>Store collections of data such as a student's multiple test scores.</li>
+                <li>Use arrays to organize large sets of data for easy access and manipulation.</li>
+                <li>Learn how to traverse arrays using loops to perform operations like calculating average scores.</li>
+                <li>Understand how to manipulate arrays (e.g., adding, removing, updating elements).</li>
+            </ul>
+        </div>
+        <
