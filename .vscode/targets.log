@@ -6,9 +6,8 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # PARTICULAR PURPOSE.
 
 # This program built for i386-apple-darwin11.3.0
- 
 
-# Make data base, printed on Wed Oct 23 22:40:00 2024
+# Make data base, printed on Tue Nov 19 00:36:31 2024
 
 # Variables
 
@@ -70,21 +69,19 @@ PWD = /Users/arnavnadar/vscode/arnav_2025
 HOMEBREW_CELLAR = /opt/homebrew/Cellar
 # environment
 GEM_HOME = /Users/arnavnadar/gems
-# environment
-ORIGINAL_XDG_CURRENT_DESKTOP = undefined
-# environment
-MANPATH = /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/share/man:/Library/Developer/CommandLineTools/usr/share/man:/Library/Developer/CommandLineTools/Toolchains/XcodeDefault.xctoolchain/usr/share/man:
  
 make: *** No rule to make target `all'.  Stop.
 
 # environment
-VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+MANPATH = /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/share/man:/Library/Developer/CommandLineTools/usr/share/man:/Library/Developer/CommandLineTools/Toolchains/XcodeDefault.xctoolchain/usr/share/man:
 # environment
 HOME = /Users/arnavnadar
 # default
 MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
 # environment
-VSCODE_CODE_CACHE_PATH = /Users/arnavnadar/Library/Application Support/Code/CachedData/384ff7382de624fb94dbaf6da11977bba1ecd427
+VSCODE_CODE_CACHE_PATH = /Users/arnavnadar/Library/Application Support/Code/CachedData/f1a4fb101478ce6ec82fe9627c43efbf9e98c813
 # environment
 LOGNAME = arnavnadar
 # environment
@@ -101,6 +98,8 @@ MAKE = $(MAKE_COMMAND)
 MAKECMDGOALS := all
 # environment
 SHLVL = 1
+# environment
+VSCODE_ESM_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # default
 MAKE_VERSION := 3.81
 # environment
@@ -118,7 +117,7 @@ TMPDIR = /var/folders/47/vt2y4mjs7xzb2_x2fk838jlh0000gn/T/
 # automatic
 *F = $(notdir $*)
 # environment
-VSCODE_IPC_HOOK = /Users/arnavnadar/Library/Application Support/Code/1.94-main.sock
+VSCODE_IPC_HOOK = /Users/arnavnadar/Library/Application Support/Code/1.95-main.sock
 # environment
 MallocNanoZone = 0
 # makefile
@@ -128,7 +127,7 @@ MFLAGS = -Rrqp
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
-XPC_SERVICE_NAME = application.com.microsoft.VSCode.36428623.36428629
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.41584921.41584927
 # environment
 HOMEBREW_PREFIX = /opt/homebrew
 # automatic
@@ -160,7 +159,7 @@ MAKELEVEL := 0
 # environment
 LANG = C
 # environment
-VSCODE_PID = 36340
+VSCODE_PID = 97609
 # variable set hash-table stats:
 # Load=73/1024=7%, Rehash=0, Collisions=10/105=10%
 
@@ -358,6 +357,7 @@ server: stop convert
 #  commands to execute (from `Makefile', line 48):
 	@echo "Starting server..."
 	@nohup bundle exec jekyll serve -H 127.0.0.1 -P $(PORT) > $(LOG_FILE) 2>&1 & \
+ 
 	PID=$$!; \
 	echo "Server PID: $$PID"
 	@until [ -f $(LOG_FILE) ]; do sleep 1; done
@@ -367,7 +367,6 @@ server: stop convert
 _posts/Foundation/2024-09-18-unit_5-static-variables-and-methods_IPYNB_2_.md:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
- 
 #  File has not been updated.
 
 # Not a target:
@@ -529,6 +528,7 @@ _posts/Foundation/2024-09-17-unit_5-accessor_IPYNB_2_.md:
 #  File has not been updated.
 
 # Not a target:
+ 
 _posts/Foundation/2024-10-06-Unit4HacksSelf-Study_IPYNB_2_.md:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -538,7 +538,6 @@ issues:
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
- 
 #  File has not been updated.
 
 # Not a target:
@@ -596,6 +595,6 @@ _posts/Foundation/2024-09-03-StudentLessonTracker_IPYNB_2_.md:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Wed Oct 23 22:40:00 2024
+# Finished Make data base on Tue Nov 19 00:36:31 2024
 
  
