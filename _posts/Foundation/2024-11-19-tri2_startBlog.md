@@ -125,6 +125,11 @@ comments: True
     right: 0;
   }
 </style>
+Topics to Work On:
 
+	•	Logical Conditions: Review loops and conditionals to avoid infinite loops or redundant checks.
+	•	Indexing and Syntax: Improve accuracy with APIs like Math.random() and array indexing.
+	•	Code Flow: Get better at following the flow of logic in loops and arrays.
+	•	Debugging Skills: Focus on spotting compile-time vs. runtime errors in code.
 
 ![code](https://github.com/user-attachments/assets/367a358d-6193-42bb-bb60-a2bc6b6609d6)
