@@ -7,7 +7,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 
 # This program built for i386-apple-darwin11.3.0
 
-# Make data base, printed on Tue Nov 19 00:36:31 2024
+# Make data base, printed on Tue Nov 19 09:36:32 2024
 
 # Variables
 
@@ -159,7 +159,7 @@ MAKELEVEL := 0
 # environment
 LANG = C
 # environment
-VSCODE_PID = 97609
+VSCODE_PID = 4009
 # variable set hash-table stats:
 # Load=73/1024=7%, Rehash=0, Collisions=10/105=10%
 
@@ -595,6 +595,6 @@ _posts/Foundation/2024-09-03-StudentLessonTracker_IPYNB_2_.md:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Tue Nov 19 00:36:31 2024
+# Finished Make data base on Tue Nov 19 09:36:32 2024
 
  
