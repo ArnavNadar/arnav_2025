@@ -10,7 +10,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 make: *** No rule to make target `all'.  Stop.
 
 
-# Make data base, printed on Mon Jan 13 07:19:13 2025
+# Make data base, printed on Tue Jan 14 11:05:07 2025
 
 # Variables
 
@@ -25,7 +25,7 @@ VSCODE_CRASH_REPORTER_PROCESS_TYPE = extensionHost
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # makefile (from `Makefile', line 13)
-NOTEBOOK_FILES := _notebooks/Foundation/2024-10-01-unit_5_work.ipynb _notebooks/Foundation/2024-09-28-Unit8-ImageConverter.ipynb _notebooks/Foundation/2024-10-06-Unit4HacksSelf-Study.ipynb _notebooks/Foundation/2024-09-20-Unit6PopcornHacks.ipynb _notebooks/Foundation/2025-01-07-methods-control-structures-introduction.ipynb _notebooks/Foundation/A-pair_programming/2023-08-17-pair_habits.ipynb _notebooks/Foundation/A-pair_programming/2023-08-16-pair_showcase.ipynb _notebooks/Foundation/2024-10-09-Unit3SelfStudy.ipynb _notebooks/Foundation/2024-09-03-StudentLessonTracker.ipynb _notebooks/Foundation/2024-09-28-8.2.ipynb _notebooks/Foundation/2024-09-23-unit_5-homework.ipynb _notebooks/Foundation/2024-09-15-unit_5-constructors.ipynb _notebooks/Foundation/2024-09-17-unit_5-mutator-methods.ipynb _notebooks/Foundation/2024-09-12-Unit2HW.ipynb _notebooks/Foundation/2024-09-17-unit_5-accessor.ipynb _notebooks/Foundation/2024-09-28-8.1.ipynb _notebooks/Foundation/2024-09-12-Unit2PT1.ipynb _notebooks/Foundation/2024-09-18-unit_5-static-variables-and-methods.ipynb _notebooks/Foundation/2024-08-23-Tools-Hacks.ipynb _notebooks/Foundation/2024-09-19-unit_5-this-keyword.ipynb _notebooks/Foundation/2024-09-13-Unit2PT3.ipynb _notebooks/Foundation/2024-09-22-unit_5-scope_access_hacks.ipynb _notebooks/Foundation/2024-09-17-unit_5-writing-methods.ipynb _notebooks/Foundation/2024-09-16-Unit2PT4.ipynb _notebooks/Foundation/2024-09-17-unit_5-toString.ipynb _notebooks/Foundation/2024-10-10-libraryManagment.ipynb _notebooks/Foundation/2024-09-12-Unit2PT2.ipynb _notebooks/Foundation/2024-09-16-unit_5-classanatomy.ipynb _notebooks/Foundation/2024-08-22-csa_hacks.ipynb _notebooks/Foundation/2024-09-22-unit_5-home.ipynb _notebooks/Foundation/B-tools_and_equipment/2023-08-21-devops_tools-home.ipynb _notebooks/Foundation/B-tools_and_equipment/2023-08-21-devops_tools-setup.ipynb _notebooks/Foundation/B-tools_and_equipment/2023-08-23-devops-hacks.ipynb _notebooks/Foundation/B-tools_and_equipment/Unit_9/2024-10-4-U9-3.ipynb _notebooks/Foundation/B-tools_and_equipment/Unit_9/2024-10-4-U9-1.ipynb _notebooks/Foundation/B-tools_and_equipment/Unit_9/2024-10-4-U9-5.ipynb _notebooks/Foundation/B-tools_and_equipment/Unit_9/2024-10-4-U9-7.ipynb _notebooks/Foundation/B-tools_and_equipment/Unit_9/2024-10-4-U9-6.ipynb _notebooks/Foundation/B-tools_and_equipment/Unit_9/2024-10-4-U9-hacks.ipynb _notebooks/Foundation/B-tools_and_equipment/Unit_9/2024-10-4-U9-0-Inheritance.ipynb _notebooks/Foundation/B-tools_and_equipment/2023-08-23-devops-githhub_pages-play.ipynb _notebooks/Foundation/B-tools_and_equipment/2023-08-19-devops_accounts.ipynb _notebooks/Foundation/B-tools_and_equipment/2023-08-22-devops_tools-verify.ipynb _notebooks/Foundation/2024-09-28-unit8-hw.ipynb _notebooks/Foundation/2024-08-27-Checklist.ipynb _notebooks/Foundation/2024-08-21-sprint1_plan.ipynb
+NOTEBOOK_FILES := _notebooks/Foundation/2024-10-01-unit_5_work.ipynb _notebooks/Foundation/2024-09-28-Unit8-ImageConverter.ipynb _notebooks/Foundation/2024-10-06-Unit4HacksSelf-Study.ipynb _notebooks/Foundation/2024-09-20-Unit6PopcornHacks.ipynb _notebooks/Foundation/A-pair_programming/2023-08-17-pair_habits.ipynb _notebooks/Foundation/A-pair_programming/2023-08-16-pair_showcase.ipynb _notebooks/Foundation/2024-10-09-Unit3SelfStudy.ipynb _notebooks/Foundation/2024-09-03-StudentLessonTracker.ipynb _notebooks/Foundation/2024-09-28-8.2.ipynb _notebooks/Foundation/2024-09-23-unit_5-homework.ipynb _notebooks/Foundation/2024-09-15-unit_5-constructors.ipynb _notebooks/Foundation/CSA Teaching Tri 2/Recursion /2025-01-14-RecursionPopcorn&HW.ipynb _notebooks/Foundation/CSA Teaching Tri 2/Classes/2025-01-07-classeshw.ipynb _notebooks/Foundation/CSA Teaching Tri 2/Classes/2025-01-10-ClassesFRQ_approach.ipynb _notebooks/Foundation/CSA Teaching Tri 2/Classes/2025-01-07-classesHW&PopcornHack.ipynb _notebooks/Foundation/CSA Teaching Tri 2/Classes/2025-01-10-ClassesFRQ_home.ipynb _notebooks/Foundation/CSA Teaching Tri 2/Classes/2025-01-07-classesprompt.ipynb _notebooks/Foundation/CSA Teaching Tri 2/Classes/2025-01-07-classes.ipynb _notebooks/Foundation/CSA Teaching Tri 2/Classes/2025-01-10-ClassesFRQ_practice.ipynb _notebooks/Foundation/CSA Teaching Tri 2/Methods and Control Structure/2025-01-07-methods-control-structures-introduction.ipynb _notebooks/Foundation/CSA Teaching Tri 2/Methods and Control Structure/2025-01-09-methodshw.ipynb _notebooks/Foundation/2024-09-17-unit_5-mutator-methods.ipynb _notebooks/Foundation/2024-09-12-Unit2HW.ipynb _notebooks/Foundation/2024-09-17-unit_5-accessor.ipynb _notebooks/Foundation/2024-09-28-8.1.ipynb _notebooks/Foundation/2024-09-12-Unit2PT1.ipynb _notebooks/Foundation/2024-09-18-unit_5-static-variables-and-methods.ipynb _notebooks/Foundation/2024-08-23-Tools-Hacks.ipynb _notebooks/Foundation/2024-09-19-unit_5-this-keyword.ipynb _notebooks/Foundation/2024-09-13-Unit2PT3.ipynb _notebooks/Foundation/2024-09-22-unit_5-scope_access_hacks.ipynb _notebooks/Foundation/2024-09-17-unit_5-writing-methods.ipynb _notebooks/Foundation/2024-09-16-Unit2PT4.ipynb _notebooks/Foundation/2024-09-17-unit_5-toString.ipynb _notebooks/Foundation/2024-10-10-libraryManagment.ipynb _notebooks/Foundation/2024-09-12-Unit2PT2.ipynb _notebooks/Foundation/2024-09-16-unit_5-classanatomy.ipynb _notebooks/Foundation/2024-08-22-csa_hacks.ipynb _notebooks/Foundation/2024-09-22-unit_5-home.ipynb _notebooks/Foundation/B-tools_and_equipment/2023-08-21-devops_tools-home.ipynb _notebooks/Foundation/B-tools_and_equipment/2023-08-21-devops_tools-setup.ipynb _notebooks/Foundation/B-tools_and_equipment/2023-08-23-devops-hacks.ipynb _notebooks/Foundation/B-tools_and_equipment/Unit_9/2024-10-4-U9-3.ipynb _notebooks/Foundation/B-tools_and_equipment/Unit_9/2024-10-4-U9-1.ipynb _notebooks/Foundation/B-tools_and_equipment/Unit_9/2024-10-4-U9-5.ipynb _notebooks/Foundation/B-tools_and_equipment/Unit_9/2024-10-4-U9-7.ipynb _notebooks/Foundation/B-tools_and_equipment/Unit_9/2024-10-4-U9-6.ipynb _notebooks/Foundation/B-tools_and_equipment/Unit_9/2024-10-4-U9-hacks.ipynb _notebooks/Foundation/B-tools_and_equipment/Unit_9/2024-10-4-U9-0-Inheritance.ipynb _notebooks/Foundation/B-tools_and_equipment/2023-08-23-devops-githhub_pages-play.ipynb _notebooks/Foundation/B-tools_and_equipment/2023-08-19-devops_accounts.ipynb _notebooks/Foundation/B-tools_and_equipment/2023-08-22-devops_tools-verify.ipynb _notebooks/Foundation/2024-09-28-unit8-hw.ipynb _notebooks/Foundation/2024-08-27-Checklist.ipynb _notebooks/Foundation/2024-08-21-sprint1_plan.ipynb
 # automatic
 @D = $(patsubst %/,%,$(dir $@))
 # automatic
@@ -56,7 +56,6 @@ REPO_NAME = arnav_2025
 DESTINATION_DIRECTORY = _posts
 # environment
 ELECTRON_RUN_AS_NODE = 1
- 
 # makefile (from `Makefile', line 2)
 PORT = 4100
 # default
@@ -66,7 +65,8 @@ SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.sl07I4QeQb/Listeners
 # automatic
 %F = $(notdir $%)
 # makefile (from `Makefile', line 17)
-MARKDOWN_FILES := _posts/Foundation/2024-10-01-unit_5_work_IPYNB_2_.md _posts/Foundation/2024-09-28-Unit8-ImageConverter_IPYNB_2_.md _posts/Foundation/2024-10-06-Unit4HacksSelf-Study_IPYNB_2_.md _posts/Foundation/2024-09-20-Unit6PopcornHacks_IPYNB_2_.md _posts/Foundation/2025-01-07-methods-control-structures-introduction_IPYNB_2_.md _posts/Foundation/A-pair_programming/2023-08-17-pair_habits_IPYNB_2_.md _posts/Foundation/A-pair_programming/2023-08-16-pair_showcase_IPYNB_2_.md _posts/Foundation/2024-10-09-Unit3SelfStudy_IPYNB_2_.md _posts/Foundation/2024-09-03-StudentLessonTracker_IPYNB_2_.md _posts/Foundation/2024-09-28-8.2_IPYNB_2_.md _posts/Foundation/2024-09-23-unit_5-homework_IPYNB_2_.md _posts/Foundation/2024-09-15-unit_5-constructors_IPYNB_2_.md _posts/Foundation/2024-09-17-unit_5-mutator-methods_IPYNB_2_.md _posts/Foundation/2024-09-12-Unit2HW_IPYNB_2_.md _posts/Foundation/2024-09-17-unit_5-accessor_IPYNB_2_.md _posts/Foundation/2024-09-28-8.1_IPYNB_2_.md _posts/Foundation/2024-09-12-Unit2PT1_IPYNB_2_.md _posts/Foundation/2024-09-18-unit_5-static-variables-and-methods_IPYNB_2_.md _posts/Foundation/2024-08-23-Tools-Hacks_IPYNB_2_.md _posts/Foundation/2024-09-19-unit_5-this-keyword_IPYNB_2_.md _posts/Foundation/2024-09-13-Unit2PT3_IPYNB_2_.md _posts/Foundation/2024-09-22-unit_5-scope_access_hacks_IPYNB_2_.md _posts/Foundation/2024-09-17-unit_5-writing-methods_IPYNB_2_.md _posts/Foundation/2024-09-16-Unit2PT4_IPYNB_2_.md _posts/Foundation/2024-09-17-unit_5-toString_IPYNB_2_.md _posts/Foundation/2024-10-10-libraryManagment_IPYNB_2_.md _posts/Foundation/2024-09-12-Unit2PT2_IPYNB_2_.md _posts/Foundation/2024-09-16-unit_5-classanatomy_IPYNB_2_.md _posts/Foundation/2024-08-22-csa_hacks_IPYNB_2_.md _posts/Foundation/2024-09-22-unit_5-home_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/2023-08-21-devops_tools-home_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/2023-08-21-devops_tools-setup_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/2023-08-23-devops-hacks_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/Unit_9/2024-10-4-U9-3_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/Unit_9/2024-10-4-U9-1_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/Unit_9/2024-10-4-U9-5_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/Unit_9/2024-10-4-U9-7_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/Unit_9/2024-10-4-U9-6_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/Unit_9/2024-10-4-U9-hacks_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/Unit_9/2024-10-4-U9-0-Inheritance_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/2023-08-23-devops-githhub_pages-play_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/2023-08-19-devops_accounts_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/2023-08-22-devops_tools-verify_IPYNB_2_.md _posts/Foundation/2024-09-28-unit8-hw_IPYNB_2_.md _posts/Foundation/2024-08-27-Checklist_IPYNB_2_.md _posts/Foundation/2024-08-21-sprint1_plan_IPYNB_2_.md
+MARKDOWN_FILES := _posts/Foundation/2024-10-01-unit_5_work_IPYNB_2_.md _posts/Foundation/2024-09-28-Unit8-ImageConverter_IPYNB_2_.md _posts/Foundation/2024-10-06-Unit4HacksSelf-Study_IPYNB_2_.md _posts/Foundation/2024-09-20-Unit6PopcornHacks_IPYNB_2_.md _posts/Foundation/A-pair_programming/2023-08-17-pair_habits_IPYNB_2_.md _posts/Foundation/A-pair_programming/2023-08-16-pair_showcase_IPYNB_2_.md _posts/Foundation/2024-10-09-Unit3SelfStudy_IPYNB_2_.md _posts/Foundation/2024-09-03-StudentLessonTracker_IPYNB_2_.md _posts/Foundation/2024-09-28-8.2_IPYNB_2_.md _posts/Foundation/2024-09-23-unit_5-homework_IPYNB_2_.md _posts/Foundation/2024-09-15-unit_5-constructors_IPYNB_2_.md _notebooks/Foundation/CSA Teaching Tri 2/Recursion /2025-01-14-RecursionPopcorn&HW.ipynb _notebooks/Foundation/CSA Teaching Tri 2/Classes/2025-01-07-classeshw.ipynb _notebooks/Foundation/CSA Teaching Tri 2/Classes/2025-01-10-ClassesFRQ_approach.ipynb _notebooks/Foundation/CSA Teaching Tri 2/Classes/2025-01-07-classesHW&PopcornHack.ipynb _notebooks/Foundation/CSA Teaching Tri 2/Classes/2025-01-10-ClassesFRQ_home.ipynb _notebooks/Foundation/CSA Teaching Tri 2/Classes/2025-01-07-classesprompt.ipynb _notebooks/Foundation/CSA Teaching Tri 2/Classes/2025-01-07-classes.ipynb _notebooks/Foundation/CSA Teaching Tri 2/Classes/2025-01-10-ClassesFRQ_practice.ipynb _notebooks/Foundation/CSA Teaching Tri 2/Methods and Control Structure/2025-01-07-methods-control-structures-introduction.ipynb _notebooks/Foundation/CSA Teaching Tri 2/Methods and Control Structure/2025-01-09-methodshw.ipynb _posts/Foundation/2024-09-17-unit_5-mutator-methods_IPYNB_2_.md _posts/Foundation/2024-09-12-Unit2HW_IPYNB_2_.md _posts/Foundation/2024-09-17-unit_5-accessor_IPYNB_2_.md _posts/Foundation/2024-09-28-8.1_IPYNB_2_.md _posts/Foundation/2024-09-12-Unit2PT1_IPYNB_2_.md _posts/Foundation/2024-09-18-unit_5-static-variables-and-methods_IPYNB_2_.md _posts/Foundation/2024-08-23-Tools-Hacks_IPYNB_2_.md _posts/Foundation/2024-09-19-unit_5-this-keyword_IPYNB_2_.md _posts/Foundation/2024-0 
+9-13-Unit2PT3_IPYNB_2_.md _posts/Foundation/2024-09-22-unit_5-scope_access_hacks_IPYNB_2_.md _posts/Foundation/2024-09-17-unit_5-writing-methods_IPYNB_2_.md _posts/Foundation/2024-09-16-Unit2PT4_IPYNB_2_.md _posts/Foundation/2024-09-17-unit_5-toString_IPYNB_2_.md _posts/Foundation/2024-10-10-libraryManagment_IPYNB_2_.md _posts/Foundation/2024-09-12-Unit2PT2_IPYNB_2_.md _posts/Foundation/2024-09-16-unit_5-classanatomy_IPYNB_2_.md _posts/Foundation/2024-08-22-csa_hacks_IPYNB_2_.md _posts/Foundation/2024-09-22-unit_5-home_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/2023-08-21-devops_tools-home_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/2023-08-21-devops_tools-setup_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/2023-08-23-devops-hacks_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/Unit_9/2024-10-4-U9-3_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/Unit_9/2024-10-4-U9-1_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/Unit_9/2024-10-4-U9-5_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/Unit_9/2024-10-4-U9-7_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/Unit_9/2024-10-4-U9-6_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/Unit_9/2024-10-4-U9-hacks_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/Unit_9/2024-10-4-U9-0-Inheritance_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/2023-08-23-devops-githhub_pages-play_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/2023-08-19-devops_accounts_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/2023-08-22-devops_tools-verify_IPYNB_2_.md _posts/Foundation/2024-09-28-unit8-hw_IPYNB_2_.md _posts/Foundation/2024-08-27-Checklist_IPYNB_2_.md _posts/Foundation/2024-08-21-sprint1_plan_IPYNB_2_.md
 # environment
 PWD = /Users/arnavnadar/vscode/arnav_2025
 # environment
@@ -133,6 +133,8 @@ XPC_SERVICE_NAME = application.com.microsoft.VSCode.47446199.47446205
 HOMEBREW_PREFIX = /opt/homebrew
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
+# environment
+VSCODE_L10N_BUNDLE_LOCATION = 
 # automatic
 +F = $(notdir $+)
 # environment
@@ -160,7 +162,7 @@ LANG = C
 # environment
 VSCODE_PID = 8632
 # variable set hash-table stats:
-# Load=72/1024=7%, Rehash=0, Collisions=10/104=10%
+# Load=73/1024=7%, Rehash=0, Collisions=10/105=10%
 
 # Pattern-specific Variable Values
 
@@ -188,6 +190,12 @@ _posts/%_IPYNB_2_.md: _notebooks/%.ipynb
 
 # Not a target:
 _posts/Foundation/2024-09-17-unit_5-writing-methods_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+2/Classes/2025-01-07-classes.ipynb:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -224,6 +232,12 @@ _posts/Foundation/2024-09-12-Unit2PT1_IPYNB_2_.md:
 #  File has not been updated.
 
 # Not a target:
+2/Classes/2025-01-07-classesHW&PopcornHack.ipynb:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
 _posts/Foundation/2024-09-16-Unit2PT4_IPYNB_2_.md:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -245,7 +259,6 @@ _posts/Foundation/2024-09-12-Unit2HW_IPYNB_2_.md:
 _posts/Foundation/2024-09-22-unit_5-scope_access_hacks_IPYNB_2_.md:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
- 
 #  File has not been updated.
 
 # Not a target:
@@ -285,6 +298,7 @@ _posts/Foundation/A-pair_programming/2023-08-16-pair_showcase_IPYNB_2_.md:
 _posts/Foundation/2024-09-28-Unit8-ImageConverter_IPYNB_2_.md:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
+ 
 #  File has not been updated.
 
 .PHONY: default server issues convert clean stop
@@ -294,6 +308,12 @@ _posts/Foundation/2024-09-28-Unit8-ImageConverter_IPYNB_2_.md:
 
 # Not a target:
 _posts/Foundation/2024-10-09-Unit3SelfStudy_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Teaching:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -341,6 +361,18 @@ _posts/Foundation/B-tools_and_equipment/Unit_9/2024-10-4-U9-1_IPYNB_2_.md:
 #  File has not been updated.
 
 # Not a target:
+2/Classes/2025-01-10-ClassesFRQ_approach.ipynb:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Control:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
 Makefile:
 #  Implicit rule search has been done.
 #  Last modified 2024-09-24 11:59:49
@@ -348,6 +380,12 @@ Makefile:
 #  Successfully updated.
 # variable set hash-table stats:
 # Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+Structure/2025-01-07-methods-control-structures-introduction.ipynb:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 server: stop convert
 #  Phony target (prerequisite of .PHONY).
@@ -375,7 +413,25 @@ _posts/Foundation/2024-10-01-unit_5_work_IPYNB_2_.md:
 #  File has not been updated.
 
 # Not a target:
+2/Classes/2025-01-07-classesprompt.ipynb:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Tri:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
 _posts/Foundation/B-tools_and_equipment/2023-08-21-devops_tools-setup_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Structure/2025-01-09-methodshw.ipynb:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -419,6 +475,12 @@ _posts/Foundation/B-tools_and_equipment/Unit_9/2024-10-4-U9-3_IPYNB_2_.md:
 #  File has not been updated.
 
 # Not a target:
+_notebooks/Foundation/CSA:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
 _posts/Foundation/B-tools_and_equipment/Unit_9/2024-10-4-U9-5_IPYNB_2_.md:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -431,7 +493,19 @@ _posts/Foundation/B-tools_and_equipment/2023-08-23-devops-hacks_IPYNB_2_.md:
 #  File has not been updated.
 
 # Not a target:
+2/Recursion:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
 .DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+2/Methods:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -467,6 +541,12 @@ clean: stop
 	
 
 # Not a target:
+2/Classes/2025-01-10-ClassesFRQ_practice.ipynb:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
 _posts/Foundation/2024-09-13-Unit2PT3_IPYNB_2_.md:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -479,13 +559,13 @@ _posts/Foundation/B-tools_and_equipment/2023-08-22-devops_tools-verify_IPYNB_2_.
 #  File has not been updated.
 
 # Not a target:
-_posts/Foundation/2024-09-28-unit8-hw_IPYNB_2_.md:
+2/Classes/2025-01-07-classeshw.ipynb:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
 # Not a target:
-_posts/Foundation/2025-01-07-methods-control-structures-introduction_IPYNB_2_.md:
+_posts/Foundation/2024-09-28-unit8-hw_IPYNB_2_.md:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -493,11 +573,18 @@ _posts/Foundation/2025-01-07-methods-control-structures-introduction_IPYNB_2_.md
 # Not a target:
 _posts/Foundation/B-tools_and_equipment/Unit_9/2024-10-4-U9-7_IPYNB_2_.md:
 #  Implicit rule search has not been done.
+ 
 #  Modification time never checked.
 #  File has not been updated.
 
 # Not a target:
 _posts/Foundation/2024-09-28-8.1_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+and:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -509,7 +596,6 @@ _posts/Foundation/B-tools_and_equipment/2023-08-23-devops-githhub_pages-play_IPY
 #  File has not been updated.
 
 # Not a target:
- 
 _posts/Foundation/2024-09-22-unit_5-home_IPYNB_2_.md:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -521,7 +607,7 @@ _posts/Foundation/B-tools_and_equipment/2023-08-21-devops_tools-home_IPYNB_2_.md
 #  Modification time never checked.
 #  File has not been updated.
 
-convert: _posts/Foundation/2024-10-01-unit_5_work_IPYNB_2_.md _posts/Foundation/2024-09-28-Unit8-ImageConverter_IPYNB_2_.md _posts/Foundation/2024-10-06-Unit4HacksSelf-Study_IPYNB_2_.md _posts/Foundation/2024-09-20-Unit6PopcornHacks_IPYNB_2_.md _posts/Foundation/2025-01-07-methods-control-structures-introduction_IPYNB_2_.md _posts/Foundation/A-pair_programming/2023-08-17-pair_habits_IPYNB_2_.md _posts/Foundation/A-pair_programming/2023-08-16-pair_showcase_IPYNB_2_.md _posts/Foundation/2024-10-09-Unit3SelfStudy_IPYNB_2_.md _posts/Foundation/2024-09-03-StudentLessonTracker_IPYNB_2_.md _posts/Foundation/2024-09-28-8.2_IPYNB_2_.md _posts/Foundation/2024-09-23-unit_5-homework_IPYNB_2_.md _posts/Foundation/2024-09-15-unit_5-constructors_IPYNB_2_.md _posts/Foundation/2024-09-17-unit_5-mutator-methods_IPYNB_2_.md _posts/Foundation/2024-09-12-Unit2HW_IPYNB_2_.md _posts/Foundation/2024-09-17-unit_5-accessor_IPYNB_2_.md _posts/Foundation/2024-09-28-8.1_IPYNB_2_.md _posts/Foundation/2024-09-12-Unit2PT1_IPYNB_2_.md _posts/Foundation/2024-09-18-unit_5-static-variables-and-methods_IPYNB_2_.md _posts/Foundation/2024-08-23-Tools-Hacks_IPYNB_2_.md _posts/Foundation/2024-09-19-unit_5-this-keyword_IPYNB_2_.md _posts/Foundation/2024-09-13-Unit2PT3_IPYNB_2_.md _posts/Foundation/2024-09-22-unit_5-scope_access_hacks_IPYNB_2_.md _posts/Foundation/2024-09-17-unit_5-writing-methods_IPYNB_2_.md _posts/Foundation/2024-09-16-Unit2PT4_IPYNB_2_.md _posts/Foundation/2024-09-17-unit_5-toString_IPYNB_2_.md _posts/Foundation/2024-10-10-libraryManagment_IPYNB_2_.md _posts/Foundation/2024-09-12-Unit2PT2_IPYNB_2_.md _posts/Foundation/2024-09-16-unit_5-classanatomy_IPYNB_2_.md _posts/Foundation/2024-08-22-csa_hacks_IPYNB_2_.md _posts/Foundation/2024-09-22-unit_5-home_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/2023-08-21-devops_tools-home_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/2023-08-21-devops_tools-setup_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/2023-08-23-devops-hacks_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/Unit_9/2024-10-4-U9-3_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/Unit_9/2024-10-4-U9-1_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/Unit_9/2024-10-4-U9-5_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/Unit_9/2024-10-4-U9-7_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/Unit_9/2024-10-4-U9-6_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/Unit_9/2024-10-4-U9-hacks_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/Unit_9/2024-10-4-U9-0-Inheritance_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/2023-08-23-devops-githhub_pages-play_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/2023-08-19-devops_accounts_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/2023-08-22-devops_tools-verify_IPYNB_2_.md _posts/Foundation/2024-09-28-unit8-hw_IPYNB_2_.md _posts/Foundation/2024-08-27-Checklist_IPYNB_2_.md _posts/Foundation/2024-08-21-sprint1_plan_IPYNB_2_.md
+convert: _posts/Foundation/2024-10-01-unit_5_work_IPYNB_2_.md _posts/Foundation/2024-09-28-Unit8-ImageConverter_IPYNB_2_.md _posts/Foundation/2024-10-06-Unit4HacksSelf-Study_IPYNB_2_.md _posts/Foundation/2024-09-20-Unit6PopcornHacks_IPYNB_2_.md _posts/Foundation/A-pair_programming/2023-08-17-pair_habits_IPYNB_2_.md _posts/Foundation/A-pair_programming/2023-08-16-pair_showcase_IPYNB_2_.md _posts/Foundation/2024-10-09-Unit3SelfStudy_IPYNB_2_.md _posts/Foundation/2024-09-03-StudentLessonTracker_IPYNB_2_.md _posts/Foundation/2024-09-28-8.2_IPYNB_2_.md _posts/Foundation/2024-09-23-unit_5-homework_IPYNB_2_.md _posts/Foundation/2024-09-15-unit_5-constructors_IPYNB_2_.md _notebooks/Foundation/CSA Teaching Tri 2/Recursion /2025-01-14-RecursionPopcorn&HW.ipynb _notebooks/Foundation/CSA Teaching Tri 2/Classes/2025-01-07-classeshw.ipynb _notebooks/Foundation/CSA Teaching Tri 2/Classes/2025-01-10-ClassesFRQ_approach.ipynb _notebooks/Foundation/CSA Teaching Tri 2/Classes/2025-01-07-classesHW&PopcornHack.ipynb _notebooks/Foundation/CSA Teaching Tri 2/Classes/2025-01-10-ClassesFRQ_home.ipynb _notebooks/Foundation/CSA Teaching Tri 2/Classes/2025-01-07-classesprompt.ipynb _notebooks/Foundation/CSA Teaching Tri 2/Classes/2025-01-07-classes.ipynb _notebooks/Foundation/CSA Teaching Tri 2/Classes/2025-01-10-ClassesFRQ_practice.ipynb _notebooks/Foundation/CSA Teaching Tri 2/Methods and Control Structure/2025-01-07-methods-control-structures-introduction.ipynb _notebooks/Foundation/CSA Teaching Tri 2/Methods and Control Structure/2025-01-09-methodshw.ipynb _posts/Foundation/2024-09-17-unit_5-mutator-methods_IPYNB_2_.md _posts/Foundation/2024-09-12-Unit2HW_IPYNB_2_.md _posts/Foundation/2024-09-17-unit_5-accessor_IPYNB_2_.md _posts/Foundation/2024-09-28-8.1_IPYNB_2_.md _posts/Foundation/2024-09-12-Unit2PT1_IPYNB_2_.md _posts/Foundation/2024-09-18-unit_5-static-variables-and-methods_IPYNB_2_.md _posts/Foundation/2024-08-23-Tools-Hacks_IPYNB_2_.md _posts/Foundation/2024-09-19-unit_5-this-keyword_IPYNB_2_.md _posts/Foundation/2024-09-13-Unit2PT3_IPYNB_2_.md _posts/Foundation/2024-09-22-unit_5-scope_access_hacks_IPYNB_2_.md _posts/Foundation/2024-09-17-unit_5-writing-methods_IPYNB_2_.md _posts/Foundation/2024-09-16-Unit2PT4_IPYNB_2_.md _posts/Foundation/2024-09-17-unit_5-toString_IPYNB_2_.md _posts/Foundation/2024-10-10-libraryManagment_IPYNB_2_.md _posts/Foundation/2024-09-12-Unit2PT2_IPYNB_2_.md _posts/Foundation/2024-09-16-unit_5-classanatomy_IPYNB_2_.md _posts/Foundation/2024-08-22-csa_hacks_IPYNB_2_.md _posts/Foundation/2024-09-22-unit_5-home_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/2023-08-21-devops_tools-home_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/2023-08-21-devops_tools-setup_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/2023-08-23-devops-hacks_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/Unit_9/2024-10-4-U9-3_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/Unit_9/2024-10-4-U9-1_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/Unit_9/2024-10-4-U9-5_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/Unit_9/2024-10-4-U9-7_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/Unit_9/2024-10-4-U9-6_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/Unit_9/2024-10-4-U9-hacks_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/Unit_9/2024-10-4-U9-0-Inheritance_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/2023-08-23-devops-githhub_pages-play_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/2023-08-19-devops_accounts_IPYNB_2_.md _posts/Foundation/B-tools_and_equipment/2023-08-22-devops_tools-verify_IPYNB_2_.md _posts/Foundation/2024-09-28-unit8-hw_IPYNB_2_.md _posts/Foundation/2024-08-27-Checklist_IPYNB_2_.md _posts/Foundation/2024-08-21-sprint1_plan_IPYNB_2_.md
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
@@ -546,6 +632,12 @@ issues:
 #  File has not been updated.
 
 # Not a target:
+2/Classes/2025-01-10-ClassesFRQ_home.ipynb:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
 _posts/Foundation/2024-08-23-Tools-Hacks_IPYNB_2_.md:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -559,6 +651,12 @@ _posts/Foundation/2024-09-28-8.2_IPYNB_2_.md:
 
 # Not a target:
 _posts/Foundation/2024-09-17-unit_5-mutator-methods_IPYNB_2_.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/2025-01-14-RecursionPopcorn&HW.ipynb:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -588,7 +686,7 @@ _posts/Foundation/2024-09-03-StudentLessonTracker_IPYNB_2_.md:
 #  File has not been updated.
 
 # files hash-table stats:
-# Load=57/1024=6%, Rehash=0, Collisions=2/125=2%
+# Load=73/1024=7%, Rehash=0, Collisions=2/187=1%
 # VPATH Search Paths
 
 # No `vpath' search paths.
@@ -600,6 +698,6 @@ _posts/Foundation/2024-09-03-StudentLessonTracker_IPYNB_2_.md:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Mon Jan 13 07:19:13 2025
+# Finished Make data base on Tue Jan 14 11:05:07 2025
 
  
