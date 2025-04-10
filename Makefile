@@ -1,6 +1,6 @@
 # Configuration, override port with usage: make PORT=4200
 PORT ?= 4100
-REPO_NAME ?=arnav_2025
+REPO_NAME ?= arnav_2025
 LOG_FILE = /tmp/jekyll$(PORT).log
 
 SHELL = /bin/bash
@@ -9,8 +9,8 @@ SHELL = /bin/bash
 # Phony Targets, makefile housekeeping for below definitions
 .PHONY: default server issues convert clean stop
 
-# List all .ipynb files in the _notebooks directory
-NOTEBOOK_FILES := $(shell find _notebooks -name '*.ipynb')
+# List all .ipynb files in the _notebooks directory, handling spaces in filenames
+NOTEBOOK_FILES := $(shell find _notebooks -name '*.ipynb' | sed 's/ /\\ /g')
 
 # Specify the target directory for the converted Markdown files
 DESTINATION_DIRECTORY = _posts
@@ -54,7 +54,7 @@ server: stop convert
 # Convert .ipynb files to Markdown with front matter
 convert: $(MARKDOWN_FILES)
 
-# Convert .ipynb files to Markdown with front matter, preserving directory structure
+# Convert .ipynb files to Markdown with front matter, handling spaces in filenames
 $(DESTINATION_DIRECTORY)/%_IPYNB_2_.md: _notebooks/%.ipynb
 	@echo "Converting source $< to destination $@"
 	@mkdir -p $(@D)
