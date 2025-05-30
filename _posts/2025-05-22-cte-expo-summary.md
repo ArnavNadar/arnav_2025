@@ -9,9 +9,13 @@ permalink: /cte-expo
 categories: [AP CSA, Java]
 ---
 
-https://github.com/user-attachments/assets/6c4018dc-51d5-4655-9bff-8d375b8f95cd
+![Image](https://github.com/user-attachments/assets/564ecfab-2d39-411c-bd9d-ea395f5e919a)
 
----
+
+
+![Image](https://github.com/user-attachments/assets/6c89bbfd-8ef9-4da0-b4d5-c3b1bb265cd3)
+
+
 
 **My Experience at the CTE Expo**
 
