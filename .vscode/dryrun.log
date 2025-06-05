@@ -20,7 +20,6 @@ python -c 'import sys; from scripts.convert_notebooks import convert_single_note
 echo "Converting source _notebooks/Foundation/2024-09-20-Unit6PopcornHacks.ipynb to destination _posts/Foundation/2024-09-20-Unit6PopcornHacks_IPYNB_2_.md"
 mkdir -p _posts/Foundation
 python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/Foundation/2024-09-20-Unit6PopcornHacks.ipynb"
- 
 echo "Converting source _notebooks/Foundation/A-pair_programming/2023-08-17-pair_habits.ipynb to destination _posts/Foundation/A-pair_programming/2023-08-17-pair_habits_IPYNB_2_.md"
 mkdir -p _posts/Foundation/A-pair_programming
 python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/Foundation/A-pair_programming/2023-08-17-pair_habits.ipynb"
@@ -60,7 +59,6 @@ python -c 'import sys; from scripts.convert_notebooks import convert_single_note
 echo "Converting source _notebooks/Foundation/2024-09-28-8.1.ipynb to destination _posts/Foundation/2024-09-28-8.1_IPYNB_2_.md"
 mkdir -p _posts/Foundation
 python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/Foundation/2024-09-28-8.1.ipynb"
- 
 echo "Converting source _notebooks/Foundation/2024-09-12-Unit2PT1.ipynb to destination _posts/Foundation/2024-09-12-Unit2PT1_IPYNB_2_.md"
 mkdir -p _posts/Foundation
 python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/Foundation/2024-09-12-Unit2PT1.ipynb"
@@ -70,6 +68,7 @@ python -c 'import sys; from scripts.convert_notebooks import convert_single_note
 echo "Converting source _notebooks/Foundation/2024-08-23-Tools-Hacks.ipynb to destination _posts/Foundation/2024-08-23-Tools-Hacks_IPYNB_2_.md"
 mkdir -p _posts/Foundation
 python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/Foundation/2024-08-23-Tools-Hacks.ipynb"
+ 
 echo "Converting source _notebooks/Foundation/2024-09-19-unit_5-this-keyword.ipynb to destination _posts/Foundation/2024-09-19-unit_5-this-keyword_IPYNB_2_.md"
 mkdir -p _posts/Foundation
 python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/Foundation/2024-09-19-unit_5-this-keyword.ipynb"
@@ -124,16 +123,15 @@ python -c 'import sys; from scripts.convert_notebooks import convert_single_note
 echo "Converting source _notebooks/Foundation/B-tools_and_equipment/Unit_9/2024-10-4-U9-5.ipynb to destination _posts/Foundation/B-tools_and_equipment/Unit_9/2024-10-4-U9-5_IPYNB_2_.md"
 mkdir -p _posts/Foundation/B-tools_and_equipment/Unit_9
 python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/Foundation/B-tools_and_equipment/Unit_9/2024-10-4-U9-5.ipynb"
- 
 echo "Converting source _notebooks/Foundation/B-tools_and_equipment/Unit_9/2024-10-4-U9-7.ipynb to destination _posts/Foundation/B-tools_and_equipment/Unit_9/2024-10-4-U9-7_IPYNB_2_.md"
 mkdir -p _posts/Foundation/B-tools_and_equipment/Unit_9
 python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/Foundation/B-tools_and_equipment/Unit_9/2024-10-4-U9-7.ipynb"
- 
 echo "Converting source _notebooks/Foundation/B-tools_and_equipment/Unit_9/2024-10-4-U9-6.ipynb to destination _posts/Foundation/B-tools_and_equipment/Unit_9/2024-10-4-U9-6_IPYNB_2_.md"
 mkdir -p _posts/Foundation/B-tools_and_equipment/Unit_9
 python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/Foundation/B-tools_and_equipment/Unit_9/2024-10-4-U9-6.ipynb"
 echo "Converting source _notebooks/Foundation/B-tools_and_equipment/Unit_9/2024-10-4-U9-hacks.ipynb to destination _posts/Foundation/B-tools_and_equipment/Unit_9/2024-10-4-U9-hacks_IPYNB_2_.md"
 mkdir -p _posts/Foundation/B-tools_and_equipment/Unit_9
+ 
 python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/Foundation/B-tools_and_equipment/Unit_9/2024-10-4-U9-hacks.ipynb"
 echo "Converting source _notebooks/Foundation/B-tools_and_equipment/Unit_9/2024-10-4-U9-0-Inheritance.ipynb to destination _posts/Foundation/B-tools_and_equipment/Unit_9/2024-10-4-U9-0-Inheritance_IPYNB_2_.md"
 mkdir -p _posts/Foundation/B-tools_and_equipment/Unit_9
@@ -141,12 +139,15 @@ python -c 'import sys; from scripts.convert_notebooks import convert_single_note
 echo "Converting source _notebooks/Foundation/B-tools_and_equipment/2023-08-23-devops-githhub_pages-play.ipynb to destination _posts/Foundation/B-tools_and_equipment/2023-08-23-devops-githhub_pages-play_IPYNB_2_.md"
 mkdir -p _posts/Foundation/B-tools_and_equipment
 python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/Foundation/B-tools_and_equipment/2023-08-23-devops-githhub_pages-play.ipynb"
+ 
 echo "Converting source _notebooks/Foundation/B-tools_and_equipment/2023-08-19-devops_accounts.ipynb to destination _posts/Foundation/B-tools_and_equipment/2023-08-19-devops_accounts_IPYNB_2_.md"
 mkdir -p _posts/Foundation/B-tools_and_equipment
 python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/Foundation/B-tools_and_equipment/2023-08-19-devops_accounts.ipynb"
+ 
 echo "Converting source _notebooks/Foundation/B-tools_and_equipment/2023-08-22-devops_tools-verify.ipynb to destination _posts/Foundation/B-tools_and_equipment/2023-08-22-devops_tools-verify_IPYNB_2_.md"
 mkdir -p _posts/Foundation/B-tools_and_equipment
 python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/Foundation/B-tools_and_equipment/2023-08-22-devops_tools-verify.ipynb"
+ 
 echo "Converting source _notebooks/Foundation/2024-09-28-unit8-hw.ipynb to destination _posts/Foundation/2024-09-28-unit8-hw_IPYNB_2_.md"
 mkdir -p _posts/Foundation
 python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/Foundation/2024-09-28-unit8-hw.ipynb"

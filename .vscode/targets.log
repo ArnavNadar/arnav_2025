@@ -7,7 +7,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 
 # This program built for i386-apple-darwin11.3.0
 
-# Make data base, printed on Fri May 30 12:00:43 2025
+# Make data base, printed on Thu Jun  5 11:29:39 2025
 
 # Variables
 
@@ -19,8 +19,8 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 .SHELLFLAGS = -e
 # environment
 VSCODE_CRASH_REPORTER_PROCESS_TYPE = extensionHost
-# environment
-VSCODE_PROCESS_TITLE = extension-host [1-1]
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
 # makefile (from `Makefile', line 13)
 NOTEBOOK_FILES := _notebooks/Foundation/2025-02-20-fibonaccii_abstract.ipynb _notebooks/Foundation/2024-10-01-unit_5_work.ipynb _notebooks/Foundation/2024-09-28-Unit8-ImageConverter.ipynb _notebooks/Foundation/2024-10-06-Unit4HacksSelf-Study.ipynb _notebooks/Foundation/2024-09-20-Unit6PopcornHacks.ipynb _notebooks/Foundation/A-pair_programming/2023-08-17-pair_habits.ipynb _notebooks/Foundation/A-pair_programming/2023-08-16-pair_showcase.ipynb _notebooks/Foundation/2024-10-09-Unit3SelfStudy.ipynb _notebooks/Foundation/2024-09-03-StudentLessonTracker.ipynb _notebooks/Foundation/2024-09-28-8.2.ipynb _notebooks/Foundation/2025-03-17-calculatorenactment.ipynb _notebooks/Foundation/2025-01-06-sortinglesson.ipynb _notebooks/Foundation/2024-09-23-unit_5-homework.ipynb _notebooks/Foundation/2024-09-15-unit_5-constructors.ipynb _notebooks/Foundation/CSA\ Teaching\ Tri\ 2/Recursion\ /2025-01-14-RecursionPopcorn&HW.ipynb _notebooks/Foundation/CSA\ Teaching\ Tri\ 2/Array/ArrayLists/2025-01-16-Array/ArrayListHW.ipynb _notebooks/Foundation/CSA\ Teaching\ Tri\ 2/Classes/2025-01-07-classeshw.ipynb _notebooks/Foundation/CSA\ Teaching\ Tri\ 2/Classes/2025-01-10-ClassesFRQ_approach.ipynb _notebooks/Foundation/CSA\ Teaching\ Tri\ 2/Classes/2025-01-07-classesHW&PopcornHack.ipynb _notebooks/Foundation/CSA\ Teaching\ Tri\ 2/Classes/2025-01-10-ClassesFRQ_home.ipynb _notebooks/Foundation/CSA\ Teaching\ Tri\ 2/Classes/2025-01-07-classesprompt.ipynb _notebooks/Foundation/CSA\ Teaching\ Tri\ 2/Classes/2025-01-07-classes.ipynb _notebooks/Foundation/CSA\ Teaching\ Tri\ 2/Classes/2025-01-10-ClassesFRQ_practice.ipynb _notebooks/Foundation/CSA\ Teaching\ Tri\ 2/Methods\ and\ Control\ Structure/2025-01-07-methods-control-structures-introduction.ipynb _notebooks/Foundation/CSA\ Teaching\ Tri\ 2/Methods\ and\ Control\ Structure/2025-01-09-methodshw.ipynb _notebooks/Foundation/CSA\ Teaching\ Tri\ 2/2D\ Arrays\ PT2/2025-01-23-2dArraysPart2-sample1.ipynb _notebooks/Foundation/CSA\ Teaching\ Tri\ 2/2D\ Arrays\ PT2/2025-01-24-2D_Array_PT2Hacks&HW.ipynb _notebooks/Foundation/CSA\ Teaching\ Tri\ 2/2D\ Arrays\ PT2/2025-01-23-2dArraysPart2-sample2.ipynb _notebooks/Foundation/CSA\ Teaching\ Tri\ 2/2D\ Arrays\ PT2/2025-01-23-2dArraysPart2-hw.ipynb _notebooks/Foundation/CSA\ Teaching\ Tri\ 2/2D\ Arrays\ PT2/2025-01-23-2dArraysPart2-refresher.ipynb _notebooks/Foundation/2024-09-17-unit_5-mutator-methods.ipynb _notebooks/Foundation/2024-09-12-Unit2HW.ipynb _notebooks/Foundation/2024-09-17-unit_5-accessor.ipynb _notebooks/Foundation/2024-09-28-8.1.ipynb _notebooks/Foundation/2024-09-12-Unit2PT1.ipynb _notebooks/Foundation/2024-09-18-unit_5-static-variables-and-methods.ipynb _notebooks/Foundation/2024-08-23-Tools-Hacks.ipynb _notebooks/Foundation/2024-09-19-unit_5-this-keyword.ipynb _notebooks/Foundation/2024-09-13-Unit2PT3.ipynb _notebooks/Foundation/2024-09-22-unit_5-scope_access_hacks.ipynb _notebooks/Foundation/2024-09-17-unit_5-writing-methods.ipynb _notebooks/Foundation/2024-09-16-Unit2PT4.ipynb _notebooks/Foundation/2025-04-22-Practice-FRQ.ipynb _notebooks/Foundation/2024-09-17-unit_5-toString.ipynb _notebooks/Foundation/2024-10-10-libraryManagment.ipynb _notebooks/Foundation/2024-09-12-Unit2PT2.ipynb _notebooks/Foundation/2024-09-16-unit_5-classanatomy.ipynb _notebooks/Foundation/2024-08-22-csa_hacks.ipynb _notebooks/Foundation/2024-09-22-unit_5-home.ipynb _notebooks/Foundation/B-tools_and_equipment/2023-08-21-devops_tools-home.ipynb _notebooks/Foundation/B-tools_and_equipment/2023-08-21-devops_tools-setup.ipynb _notebooks/Foundation/B-tools_and_equipment/2023-08-23-devops-hacks.ipynb _notebooks/Foundation/B-tools_and_equipment/Unit_9/2024-10-4-U9-3.ipynb _notebooks/Foundation/B-tools_and_equipment/Unit_9/2024-10-4-U9-1.ipynb _notebooks/Foundation/B-tools_and_equipment/Unit_9/2024-10-4-U9-5.ipynb _notebooks/Foundation/B-tools_and_equipment/Unit_9/2024-10-4-U9-7.ipynb _notebooks/Foundation/B-tools_and_equipment/Unit_9/2024-10-4-U9-6.ipynb _notebooks/Foundation/B-tools_and_equipment/Unit_9/2024-10-4-U9-hacks.ipynb _notebooks/Foundation/B-tools_and_equipment/Unit_9/2024-10-4-U9-0-Inheritance.ipynb _notebooks/Foundation/B-tools_and_equipment/2023-08-23-devops-githhub_pages-play.ipynb _notebooks/Foundation/B-tools_and_equipment/2023-08-19-devops_accounts.ipynb _notebooks/Foundation/B-tools_and_equipment/2023-08-22-devops_tools-verify.ipynb _notebooks/Foundation/2024-09-28-unit8-hw.ipynb _notebooks/Foundation/2025-04-24-GamifyCollectables.ipynb _notebooks/Foundation/2024-08-27-Checklist.ipynb _notebooks/Foundation/2024-08-21-sprint1_plan.ipynb
 # automatic
@@ -32,15 +32,13 @@ CURDIR := /Users/arnavnadar/vscode/arnav_2025
 # makefile (from `Makefile', line 6)
 SHELL = /bin/bash
 # environment
-VSCODE_NLS_CONFIG = {"userLocale":"en-us","osLocale":"en-us","resolvedLanguage":"en","defaultMessagesFile":"/Applications/Cursor.app/Contents/Resources/app/out/nls.messages.json","locale":"en-us","availableLanguages":{}}
+VSCODE_NLS_CONFIG = {"userLocale":"en-us","osLocale":"en-us","resolvedLanguage":"en","defaultMessagesFile":"/Applications/Visual Studio Code.app/Contents/Resources/app/out/nls.messages.json","locale":"en-us","availableLanguages":{}}
 # environment
 _ = /usr/bin/make
-# automatic
-?D = $(patsubst %/,%,$(dir $?))
 # makefile (from `Makefile', line 1)
 MAKEFILE_LIST :=  Makefile
 # environment
-__CFBundleIdentifier = com.todesktop.230313mzl4w4u92
+__CFBundleIdentifier = com.microsoft.VSCode
 # environment
 INFOPATH = /opt/homebrew/share/info:
 # environment
@@ -60,7 +58,7 @@ PORT = 4100
 # default
 .FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
 # environment
-SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.C8K8vFGmLm/Listeners
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.zcEzBBNYjx/Listeners
 # automatic
 %F = $(notdir $%)
 # makefile (from `Makefile', line 17)
@@ -83,7 +81,7 @@ HOME = /Users/arnavnadar
 # default
 MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
 # environment
-VSCODE_CODE_CACHE_PATH = /Users/arnavnadar/Library/Application Support/Cursor/CachedData/02270c8441bdc4b2fdbc30e6f470a589ec78d600
+VSCODE_CODE_CACHE_PATH = /Users/arnavnadar/Library/Application Support/Code/CachedData/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3
 # environment
 LOGNAME = arnavnadar
 # environment
@@ -110,8 +108,6 @@ USER = arnavnadar
 .DEFAULT_GOAL := default
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
-# environment
-CURSOR_TRACE_ID = 54e71a00c3414589b4fb0b1d6dc38299
 # default
 MAKE_COMMAND := /Library/Developer/CommandLineTools/usr/bin/make
 # default
@@ -121,7 +117,7 @@ TMPDIR = /var/folders/47/vt2y4mjs7xzb2_x2fk838jlh0000gn/T/
 # automatic
 *F = $(notdir $*)
 # environment
-VSCODE_IPC_HOOK = /Users/arnavnadar/Library/Application Support/Cursor/0.50-main.sock
+VSCODE_IPC_HOOK = /Users/arnavnadar/Library/Application Support/Code/1.10-main.sock
 # environment
 MallocNanoZone = 0
 # makefile
@@ -131,7 +127,7 @@ MFLAGS = -Rrqp
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
-XPC_SERVICE_NAME = application.com.todesktop.230313mzl4w4u92.71296465.71296482
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.72098549.72098555
 # environment
 HOMEBREW_PREFIX = /opt/homebrew
 # automatic
@@ -163,9 +159,9 @@ MAKELEVEL := 0
 # environment
 LANG = C
 # environment
-VSCODE_PID = 56741
+VSCODE_PID = 41862
 # variable set hash-table stats:
-# Load=75/1024=7%, Rehash=0, Collisions=11/107=10%
+# Load=73/1024=7%, Rehash=0, Collisions=10/105=10%
 
 # Pattern-specific Variable Values
 
@@ -173,10 +169,10 @@ VSCODE_PID = 56741
 
 # Directories
 
-# . (device 16777232, inode 31412668): 28 files, no impossibilities.
-# _notebooks (device 16777232, inode 31412794): No files, no impossibilities so far.
+# . (device 16777231, inode 31412668): 29 files, no impossibilities.
+# _notebooks (device 16777231, inode 31412794): No files, no impossibilities so far.
 
-# 28 files, no impossibilities in 2 directories.
+# 29 files, no impossibilities in 2 directories.
 
 # Implicit Rules
 
@@ -231,11 +227,11 @@ _posts/Foundation/2024-09-20-Unit6PopcornHacks_IPYNB_2_.md:
 # Not a target:
 _posts/Foundation/2024-10-10-libraryManagment_IPYNB_2_.md:
 #  Implicit rule search has not been done.
- 
 #  Modification time never checked.
 #  File has not been updated.
 
 # Not a target:
+ 
 _posts/Foundation/2024-09-12-Unit2PT1_IPYNB_2_.md:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -488,7 +484,6 @@ default: server
 	echo "Server timed out after $$COUNTER seconds."; \
 	echo "Review errors from $(LOG_FILE)."; \
 	cat $(LOG_FILE); \
- 
 	exit 1; \
 	fi; \
 	sleep 1; \
@@ -497,6 +492,7 @@ default: server
 	
 
 # Not a target:
+ 
 _posts/Foundation/B-tools_and_equipment/Unit_9/2024-10-4-U9-3_IPYNB_2_.md:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -726,6 +722,6 @@ _posts/Foundation/2024-09-03-StudentLessonTracker_IPYNB_2_.md:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Fri May 30 12:00:43 2025
+# Finished Make data base on Thu Jun  5 11:29:39 2025
 
  

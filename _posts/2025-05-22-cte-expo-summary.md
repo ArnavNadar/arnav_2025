@@ -32,3 +32,6 @@ Other Highlights
 
 Reflection
 The expo was a thoroughly enjoyable experience. It provided a great opportunity to connect with friends and see their projects. Exploring the various clubs from our school and other district schools offered valuable insight into their activities and the dedication behind each project. I was particularly impressed by the amount of effort invested in each display. I also gained knowledge about the different clubs and their focuses. I'm especially anticipating the growth of my tomato plant. 
+
+
+sdjflksdjflskjdflsdf
