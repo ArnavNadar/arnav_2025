@@ -96,7 +96,6 @@ python -c 'import sys; from scripts.convert_notebooks import convert_single_note
 echo "Converting source _notebooks/Foundation/2024-09-12-Unit2PT2.ipynb to destination _posts/Foundation/2024-09-12-Unit2PT2_IPYNB_2_.md"
 mkdir -p _posts/Foundation
 python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/Foundation/2024-09-12-Unit2PT2.ipynb"
- 
 echo "Converting source _notebooks/Foundation/2024-09-16-unit_5-classanatomy.ipynb to destination _posts/Foundation/2024-09-16-unit_5-classanatomy_IPYNB_2_.md"
 mkdir -p _posts/Foundation
 python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/Foundation/2024-09-16-unit_5-classanatomy.ipynb"
@@ -106,6 +105,7 @@ python -c 'import sys; from scripts.convert_notebooks import convert_single_note
 echo "Converting source _notebooks/Foundation/2024-09-22-unit_5-home.ipynb to destination _posts/Foundation/2024-09-22-unit_5-home_IPYNB_2_.md"
 mkdir -p _posts/Foundation
 python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/Foundation/2024-09-22-unit_5-home.ipynb"
+ 
 echo "Converting source _notebooks/Foundation/B-tools_and_equipment/2023-08-21-devops_tools-home.ipynb to destination _posts/Foundation/B-tools_and_equipment/2023-08-21-devops_tools-home_IPYNB_2_.md"
 mkdir -p _posts/Foundation/B-tools_and_equipment
 python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/Foundation/B-tools_and_equipment/2023-08-21-devops_tools-home.ipynb"
@@ -156,7 +156,6 @@ mkdir -p _posts/Foundation
 python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/Foundation/2024-08-27-Checklist.ipynb"
 echo "Converting source _notebooks/Foundation/2024-08-21-sprint1_plan.ipynb to destination _posts/Foundation/2024-08-21-sprint1_plan_IPYNB_2_.md"
 mkdir -p _posts/Foundation
- 
 python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "_notebooks/Foundation/2024-08-21-sprint1_plan.ipynb"
 echo "Starting server..."
 nohup bundle exec jekyll serve -H 127.0.0.1 -P 4100 > /tmp/jekyll4100.log 2>&1 & \
@@ -181,6 +180,7 @@ for ((COUNTER = 0; ; COUNTER++)); do \
 		if [ $COUNTER -eq 60 ]; then \
 			echo "Server timed out after $COUNTER seconds."; \
 			echo "Review errors from /tmp/jekyll4100.log."; \
+ 
 			cat /tmp/jekyll4100.log; \
 			exit 1; \
 		fi; \

@@ -1,6 +1,18 @@
-nbconvert
-nbformat
-pyyaml
-notebook
-requests
-python-dotenv
+# Core Jupyter packages
+nbconvert==7.2.10
+nbformat==5.9.2
+notebook==7.0.7
+
+# Data handling and utilities
+pyyaml==6.0.1
+requests==2.31.0
+python-dotenv==1.0.1
+
+# Development tools
+black==24.1.1
+pylint==3.0.3
+pytest==8.0.0
+
+# Documentation
+sphinx==7.2.6
+sphinx-rtd-theme==2.0.0

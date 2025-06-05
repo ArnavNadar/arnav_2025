@@ -1,13 +1,28 @@
-# Configuration, override port with usage: make PORT=4200
+# Configuration
+# Override port with: make PORT=4200
 PORT ?= 4100
 REPO_NAME ?= arnav_2025
 LOG_FILE = /tmp/jekyll$(PORT).log
 
+# Shell configuration
 SHELL = /bin/bash
 .SHELLFLAGS = -e
 
-# Phony Targets, makefile housekeeping for below definitions
-.PHONY: default server issues convert clean stop
+# Phony Targets
+.PHONY: default server issues convert clean stop help
+
+# Help target
+help:
+	@echo "Available targets:"
+	@echo "  make          - Start the development server (default)"
+	@echo "  make server   - Start the development server"
+	@echo "  make convert  - Convert Jupyter notebooks to Markdown"
+	@echo "  make clean    - Clean up generated files"
+	@echo "  make stop     - Stop the development server"
+	@echo "  make help     - Show this help message"
+	@echo ""
+	@echo "Configuration:"
+	@echo "  PORT=4200 make  - Start server on port 4200"
 
 # List all .ipynb files in the _notebooks directory, handling spaces in filenames
 NOTEBOOK_FILES := $(shell find _notebooks -name '*.ipynb' | sed 's/ /\\ /g')
@@ -34,8 +49,11 @@ default: server
 			break; \
 		fi; \
 		if [ $$COUNTER -eq 60 ]; then \
-			echo "Server timed out after $$COUNTER seconds."; \
-			echo "Review errors from $(LOG_FILE)."; \
+			echo "Error: Server timed out after $$COUNTER seconds."; \
+			echo "Please check the following:"; \
+			echo "1. Is port $(PORT) available?"; \
+			echo "2. Are all dependencies installed? (run 'bundle install')"; \
+			echo "3. Review errors from $(LOG_FILE):"; \
 			cat $(LOG_FILE); \
 			exit 1; \
 		fi; \
@@ -46,6 +64,10 @@ default: server
 # Start the local web server
 server: stop convert
 	@echo "Starting server..."
+	@if ! command -v bundle &> /dev/null; then \
+		echo "Error: 'bundle' command not found. Please install Ruby and Bundler."; \
+		exit 1; \
+	fi
 	@nohup bundle exec jekyll serve -H 127.0.0.1 -P $(PORT) > $(LOG_FILE) 2>&1 & \
 		PID=$$!; \
 		echo "Server PID: $$PID"
@@ -72,6 +94,7 @@ clean: stop
 	done
 	@echo "Removing _site directory..."
 	@rm -rf _site
+	@echo "Clean complete. Run 'make' to start fresh."
 
 # Stop the server and kill processes
 stop:
@@ -80,3 +103,4 @@ stop:
 	@echo "Stopping logging process..."
 	@ps aux | awk -v log_file=$(LOG_FILE) '$$0 ~ "tail -f " log_file { print $$2 }' | xargs kill >/dev/null 2>&1 || true
 	@rm -f $(LOG_FILE)
+	@echo "Server stopped."

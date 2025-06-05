@@ -2,6 +2,30 @@
 
 Nighthawk Pages is a project designed to support students in their Computer Science and Software Engineering education. It offers a wide range of resources including tech talks, code examples, and educational blogs.
 
+## Quick Start Guide
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/nighthawkcoders/student_2025.git
+   cd student_2025
+   ```
+
+2. **Setup Development Environment**
+   - For Windows WSL/Ubuntu: `./scripts/activate_ubuntu.sh`
+   - For macOS: `./scripts/activate_macos.sh`
+   - For Kasm Cloud: `./scripts/activate.sh`
+
+3. **Install Dependencies**
+   ```bash
+   bundle install
+   ```
+
+4. **Start Local Server**
+   ```bash
+   make
+   ```
+   Then visit http://localhost:4100/student_2025/
+
 GitHub Pages can be customized by the blogger to support computer science learnings as the student works through the pathway of using Javascript, Python/Flask, Java/Spring.  
 
 ## Student Requirements
@@ -174,6 +198,41 @@ Test Jupyter Notebook conversions (ie .ipynb -> .md), this is the best choice to
 
 ---
 
+## Development Guidelines
+
+### File Naming Conventions
+
+1. **Blog Posts** (`_posts/` directory):
+   - Format: `YYYY-MM-DD-title.md`
+   - Example: `2024-03-20-getting-started.md`
+   - ❌ Don't use: `2024-3-20-getting-started.md` (missing leading zeros)
+   - ❌ Don't use: `getting-started.md` (missing date)
+
+2. **Jupyter Notebooks** (`_notebooks/` directory):
+   - Format: `YYYY-MM-DD-title.ipynb`
+   - Example: `2024-03-20-python-basics.ipynb`
+   - ❌ Don't use: `2024-3-20-python-basics.ipynb` (missing leading zeros)
+   - ❌ Don't use: `python-basics.ipynb` (missing date)
+
+### Best Practices
+
+1. **Content Organization**
+   - Keep related files together
+   - Use descriptive file names
+   - Include proper front matter in all posts
+
+2. **Code Quality**
+   - Comment your code
+   - Follow language-specific style guides
+   - Test your code before committing
+
+3. **Documentation**
+   - Update README when adding new features
+   - Document any setup requirements
+   - Include usage examples
+
+---
+
 ## Development Support
 
 ### File Names in "_posts", "_notebooks"
@@ -222,7 +281,7 @@ To find a new theme search for "Github Pages Themes".
 
 ### Includes
 
-- Nighthawk Pages uses liquid syntax to import many common page elements that are present throughout the repository. These common elements are imported from the _includes directory. If you want to add one of these common elements, use liquid syntax to import the desired element to your file. Here’s an example of the liquid syntax used to import: `{%- include post_list.html -%}` Note that the liquid syntax is surrounded by curly braces and percent signs. This can be used anywhere in the repository.
+- Nighthawk Pages uses liquid syntax to import many common page elements that are present throughout the repository. These common elements are imported from the _includes directory. If you want to add one of these common elements, use liquid syntax to import the desired element to your file. Here's an example of the liquid syntax used to import: `{%- include post_list.html -%}` Note that the liquid syntax is surrounded by curly braces and percent signs. This can be used anywhere in the repository.
 
 ### Layouts
 
