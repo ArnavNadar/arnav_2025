@@ -7,6 +7,13 @@ hide: true
 
 # Welcome to My Journey
 
+<div class="theme-toggle">
+  <button id="themeToggle" class="theme-button">
+    <span class="light-icon">☀️</span>
+    <span class="dark-icon">🌙</span>
+  </button>
+</div>
+
 <div class="header-section">
   <h2>About Me</h2>
   <p>My journey starts here. I'm passionate about computer science and learning new technologies.</p>
@@ -61,6 +68,72 @@ hide: true
     <li>Get a better understanding of algorithms and code</li>
     <li>Learn how to code better in general</li>
   </ul>
+</div>
+
+<div class="progress-section">
+  <h2>Learning Progress</h2>
+  <div class="progress-grid">
+    <div class="progress-item">
+      <h3>Git & GitHub</h3>
+      <div class="progress-bar">
+        <div class="progress" style="width: 75%"></div>
+      </div>
+      <span class="progress-text">75%</span>
+    </div>
+    <div class="progress-item">
+      <h3>Algorithms</h3>
+      <div class="progress-bar">
+        <div class="progress" style="width: 60%"></div>
+      </div>
+      <span class="progress-text">60%</span>
+    </div>
+    <div class="progress-item">
+      <h3>Web Development</h3>
+      <div class="progress-bar">
+        <div class="progress" style="width: 85%"></div>
+      </div>
+      <span class="progress-text">85%</span>
+    </div>
+  </div>
+</div>
+
+<div class="skills-section">
+  <h2>Technical Skills</h2>
+  <div class="skills-grid">
+    <div class="skill-card" data-skill="Python">
+      <div class="skill-icon">🐍</div>
+      <h3>Python</h3>
+      <div class="skill-level">
+        <span class="dot active"></span>
+        <span class="dot active"></span>
+        <span class="dot active"></span>
+        <span class="dot active"></span>
+        <span class="dot"></span>
+      </div>
+    </div>
+    <div class="skill-card" data-skill="JavaScript">
+      <div class="skill-icon">📜</div>
+      <h3>JavaScript</h3>
+      <div class="skill-level">
+        <span class="dot active"></span>
+        <span class="dot active"></span>
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+    </div>
+    <div class="skill-card" data-skill="HTML/CSS">
+      <div class="skill-icon">🎨</div>
+      <h3>HTML/CSS</h3>
+      <div class="skill-level">
+        <span class="dot active"></span>
+        <span class="dot active"></span>
+        <span class="dot active"></span>
+        <span class="dot active"></span>
+        <span class="dot"></span>
+      </div>
+    </div>
+  </div>
 </div>
 
 <style>
@@ -154,6 +227,194 @@ hide: true
 
 .plans-section li:last-child {
   border-bottom: none;
+}
+
+.theme-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.theme-button {
+  background: none;
+  border: 2px solid #333;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.theme-button:hover {
+  transform: scale(1.1);
+}
+
+.dark-icon {
+  display: none;
+}
+
+[data-theme="dark"] {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+[data-theme="dark"] .header-section,
+[data-theme="dark"] .color-picker-section,
+[data-theme="dark"] .favorite-colors,
+[data-theme="dark"] .game-section,
+[data-theme="dark"] .plans-section {
+  background-color: #2d2d2d;
+}
+
+[data-theme="dark"] .cell {
+  background-color: #333;
+  border-color: #666;
+  color: #fff;
+}
+
+[data-theme="dark"] .cell:hover {
+  background-color: #444;
+}
+
+[data-theme="dark"] .theme-button {
+  border-color: #fff;
+}
+
+[data-theme="dark"] .light-icon {
+  display: none;
+}
+
+[data-theme="dark"] .dark-icon {
+  display: block;
+}
+
+.progress-section {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+}
+
+.progress-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.progress-item {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.progress-bar {
+  width: 100%;
+  height: 20px;
+  background-color: #e9ecef;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 1rem 0;
+}
+
+.progress {
+  height: 100%;
+  background: linear-gradient(90deg, #007bff, #00bfff);
+  border-radius: 10px;
+  transition: width 0.5s ease-in-out;
+}
+
+.progress-text {
+  font-weight: bold;
+  color: #007bff;
+}
+
+[data-theme="dark"] .progress-section {
+  background-color: #2d2d2d;
+}
+
+[data-theme="dark"] .progress-item {
+  background-color: #333;
+}
+
+[data-theme="dark"] .progress-bar {
+  background-color: #444;
+}
+
+[data-theme="dark"] .progress-text {
+  color: #00bfff;
+}
+
+.skills-section {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.skill-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+}
+
+.skill-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.skill-level {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #e9ecef;
+  transition: background-color 0.3s ease;
+}
+
+.dot.active {
+  background-color: #007bff;
+}
+
+[data-theme="dark"] .skills-section {
+  background-color: #2d2d2d;
+}
+
+[data-theme="dark"] .skill-card {
+  background-color: #333;
+}
+
+[data-theme="dark"] .dot {
+  background-color: #444;
+}
+
+[data-theme="dark"] .dot.active {
+  background-color: #00bfff;
 }
 </style>
 
@@ -250,5 +511,27 @@ cells.forEach(cell => cell.addEventListener("click", handleCellClick));
 resetButton.addEventListener("click", resetGame);
 
 statusText.textContent = `It's ${currentPlayer}'s turn`;
+
+// Dark mode functionality
+const themeToggle = document.getElementById('themeToggle');
+const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+
+function setTheme(theme) {
+  document.documentElement.setAttribute('data-theme', theme);
+  localStorage.setItem('theme', theme);
+}
+
+function toggleTheme() {
+  const currentTheme = document.documentElement.getAttribute('data-theme');
+  const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+  setTheme(newTheme);
+}
+
+// Initialize theme
+const savedTheme = localStorage.getItem('theme') || 
+  (prefersDarkScheme.matches ? 'dark' : 'light');
+setTheme(savedTheme);
+
+themeToggle.addEventListener('click', toggleTheme);
 </script>
 
